@@ -170,7 +170,7 @@ public class Pascal extends AgentImpl {
 	  prices[auction] = 50f + (agent.getGameTime() * 100f) / 720000;
 	bid.addBidPoint(alloc, prices[auction]);
 	if (DEBUG) {
-	  log.finest("submitting bid with alloc="
+	  log.finest("submitting bonjour bid with alloc="
 		     + agent.getAllocation(auction)
 		     + " own=" + agent.getOwn(auction));
 	}
