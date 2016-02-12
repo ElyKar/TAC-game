@@ -126,8 +126,9 @@
  */
 
 package se.sics.tac.aw;
-import se.sics.tac.util.ArgEnumerator;
 import java.util.logging.*;
+
+import se.sics.tac.util.ArgEnumerator;
 
 public class Pascal extends AgentImpl {
 
