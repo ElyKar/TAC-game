@@ -194,8 +194,9 @@ public class Pascal extends AgentImpl {
     			bid.addBidPoint(alloc, bestValue);
     			agent.replaceBid(oldbid, bid);
     		}
-    		//sinon à partir de la moitié du temps de jeux, le prix d'achat correspond au seconde passée
-    		else if(agent.getGameTimeLeft() < agent.getGameLength()/2)
+    		//sinon à partir du moment ou en convertissant les secondes passé cela nous donnes un prix possibles,
+    		//le prix d'achat correspond aux secondes passé
+    		else if(agent.getGameTime() > 50000)
     		{
     			Bid oldbid =quote.getBid();
     			Bid bid = new Bid(auction);
