@@ -138,7 +138,9 @@ public class Pascal extends AgentImpl {
   private static final boolean DEBUG = false;
 
   private float[] prices;
-
+  
+  private float bestValue=200;//valeur a laquelle on achète directement un vol.
+  
   protected void init(ArgEnumerator args) {
     prices = new float[agent.getAuctionNo()];
   }
@@ -177,6 +179,33 @@ public class Pascal extends AgentImpl {
 	}
 	agent.submitBid(bid);
       }
+    }
+    else if (auctionCategory == TACAgent.CAT_FLIGHT)
+    {
+    	float askPrice=quote.getAskPrice();
+    	int alloc = agent.getAllocation(auction);
+    	if(alloc>0)
+    	{
+    		//si on trouve un prix en dessous de 200 on achète
+    		if(askPrice<bestValue)
+    		{
+    			Bid oldbid =quote.getBid();
+    			Bid bid = new Bid(auction);
+    			bid.addBidPoint(alloc, bestValue);
+    			agent.replaceBid(oldbid, bid);
+    		}
+    		//sinon à partir de la moitié du temps de jeux, le prix d'achat correspond au seconde passée
+    		else if(agent.getGameTimeLeft() < agent.getGameLength()/2)
+    		{
+    			Bid oldbid =quote.getBid();
+    			Bid bid = new Bid(auction);
+    			//ici le /1000 pour passer en seconde et le +80 pour aller jusqu'a un prix de 800
+    			//pour etre sur d'obtenir le vol.
+    			bid.addBidPoint(alloc, (agent.getGameTime()/1000)+100);
+    			agent.replaceBid(oldbid, bid);
+    		}
+    	}
+    	
     }
   }
 
@@ -226,7 +255,7 @@ public class Pascal extends AgentImpl {
       switch (agent.getAuctionCategory(i)) {
       case TACAgent.CAT_FLIGHT:
 	if (alloc > 0) {
-	  price = 1000;
+	  price = bestValue;
 	}
 	break;
       case TACAgent.CAT_HOTEL:
