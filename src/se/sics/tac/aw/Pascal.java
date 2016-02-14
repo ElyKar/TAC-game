@@ -139,10 +139,18 @@ public class Pascal extends AgentImpl {
 
   private float[] prices;
   
-  private float bestValue=200;//valeur a laquelle on achète directement un vol.
+  private float bestValue=250;//valeur a laquelle on achète directement un vol.
+  
+  private float hotelPricePremium=50;
+  private float hotelPriceCheap=50;
+  //delat est le delta utilisé pour les hotels, il correspond 
+  private float[] deltas;
+  private float[] oldPricesHotel;
   
   protected void init(ArgEnumerator args) {
     prices = new float[agent.getAuctionNo()];
+    deltas = new float[agent.getAuctionNo()];
+    oldPricesHotel = new float[agent.getAuctionNo()];
   }
 
   public void quoteUpdated(Quote quote) {
@@ -154,14 +162,23 @@ public class Pascal extends AgentImpl {
 	  quote.getHQW() < alloc) {
 	Bid bid = new Bid(auction);
 	// Can not own anything in hotel auctions...
-	prices[auction] = quote.getAskPrice() + 50;
-	bid.addBidPoint(alloc, prices[auction]);
+	//on calcule la moyenne des deltas c'est a dire en moyenne comment evolue les AskPRice
+	deltas[auction]=(deltas[auction]+(quote.getAskPrice()-oldPricesHotel[auction]))/2;
+	
+	//si notre prix est supérieur au prix demandé + le delta on le met a jour
+	//sinon on le laisse tel quel
+	if(prices[auction]< quote.getAskPrice()+deltas[auction])
+	{
+		prices[auction]=quote.getAskPrice()+deltas[auction];
+		bid.addBidPoint(alloc, prices[auction]);
+		agent.submitBid(bid);
+	}
+
 	if (DEBUG) {
 	  log.finest("submitting bid with alloc="
 		     + agent.getAllocation(auction)
 		     + " own=" + agent.getOwn(auction));
 	}
-	agent.submitBid(bid);
       }
     } else if (auctionCategory == TACAgent.CAT_ENTERTAINMENT) {
       int alloc = agent.getAllocation(auction) - agent.getOwn(auction);
@@ -261,8 +278,16 @@ public class Pascal extends AgentImpl {
 	break;
       case TACAgent.CAT_HOTEL:
 	if (alloc > 0) {
-	  price = 200;
-	  prices[i] = 200f;
+		if(agent.getAuctionType(i)== TACAgent.TYPE_CHEAP_HOTEL)
+		{
+			price = hotelPriceCheap;
+			prices[i] = hotelPriceCheap;
+		}
+		else
+		{
+			price = hotelPricePremium;
+			prices[i]=hotelPricePremium;
+		}
 	}
 	break;
       case TACAgent.CAT_ENTERTAINMENT:
