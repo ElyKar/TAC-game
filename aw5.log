@@ -1,0 +1,3396 @@
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2016-02-13T15:19:12</date>
+  <millis>1455373152024</millis>
+  <sequence>5916</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML out: '&lt;getQuote&gt;&lt;auctionID&gt;85&lt;/auctionID&gt;&lt;/getQuote&gt;'</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:12</date>
+  <millis>1455373152025</millis>
+  <sequence>5917</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML in: '&lt;?xml version="1.0"?&gt;&lt;getQuote&gt;&lt;lastAskPrice&gt;667.0000&lt;/lastAskPrice&gt;&lt;lastBidPrice&gt;-1.0000&lt;/lastBidPrice&gt;&lt;lastQuoteTime&gt;1455373150&lt;/lastQuoteTime&gt;&lt;nextQuoteTime&gt;1455373175&lt;/nextQuoteTime&gt;&lt;finalClearTime&gt;1455373200&lt;/finalClearTime&gt;&lt;nextClearTime&gt;-1&lt;/nextClearTime&gt;&lt;lastClearPrice&gt;430.0000&lt;/lastClearPrice&gt;&lt;lastClearTime&gt;1455372841&lt;/lastClearTime&gt;&lt;auctionStatus&gt;1&lt;/auctionStatus&gt;&lt;commandStatus&gt;0&lt;/commandStatus&gt;&lt;/getQuote&gt;' responseTime: 1 avg: 20.0 count: 1620</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:12</date>
+  <millis>1455373152025</millis>
+  <sequence>5918</sequence>
+  <logger>se.sics.tac.aw.DummyAgent</logger>
+  <level>WARNING</level>
+  <class>se.sics.tac.aw.Pascal</class>
+  <method>bidRejected</method>
+  <thread>21</thread>
+  <message>Bid Rejected: -1</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:12</date>
+  <millis>1455373152025</millis>
+  <sequence>5919</sequence>
+  <logger>se.sics.tac.aw.DummyAgent</logger>
+  <level>WARNING</level>
+  <class>se.sics.tac.aw.Pascal</class>
+  <method>bidRejected</method>
+  <thread>21</thread>
+  <message>      Reason: 20 (active bid changed)</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:12</date>
+  <millis>1455373152025</millis>
+  <sequence>5920</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>requesting quotes for auction 1 (Inflight 2)</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:12</date>
+  <millis>1455373152025</millis>
+  <sequence>5921</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML out: '&lt;getQuote&gt;&lt;auctionID&gt;86&lt;/auctionID&gt;&lt;/getQuote&gt;'</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:12</date>
+  <millis>1455373152025</millis>
+  <sequence>5922</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML in: '&lt;?xml version="1.0"?&gt;&lt;getQuote&gt;&lt;lastAskPrice&gt;294.0000&lt;/lastAskPrice&gt;&lt;lastBidPrice&gt;-1.0000&lt;/lastBidPrice&gt;&lt;lastQuoteTime&gt;1455373140&lt;/lastQuoteTime&gt;&lt;nextQuoteTime&gt;1455373170&lt;/nextQuoteTime&gt;&lt;finalClearTime&gt;1455373200&lt;/finalClearTime&gt;&lt;nextClearTime&gt;-1&lt;/nextClearTime&gt;&lt;lastClearPrice&gt;263.0000&lt;/lastClearPrice&gt;&lt;lastClearTime&gt;1455372480&lt;/lastClearTime&gt;&lt;auctionStatus&gt;1&lt;/auctionStatus&gt;&lt;commandStatus&gt;0&lt;/commandStatus&gt;&lt;/getQuote&gt;' responseTime: 22 avg: 20.0 count: 1621</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:12</date>
+  <millis>1455373152025</millis>
+  <sequence>5923</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>requesting quotes for auction 2 (Inflight 3)</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:12</date>
+  <millis>1455373152025</millis>
+  <sequence>5924</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML out: '&lt;getQuote&gt;&lt;auctionID&gt;87&lt;/auctionID&gt;&lt;/getQuote&gt;'</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:12</date>
+  <millis>1455373152025</millis>
+  <sequence>5925</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML in: '&lt;?xml version="1.0"?&gt;&lt;getQuote&gt;&lt;lastAskPrice&gt;761.0000&lt;/lastAskPrice&gt;&lt;lastBidPrice&gt;-1.0000&lt;/lastBidPrice&gt;&lt;lastQuoteTime&gt;1455373130&lt;/lastQuoteTime&gt;&lt;nextQuoteTime&gt;1455373157&lt;/nextQuoteTime&gt;&lt;finalClearTime&gt;1455373200&lt;/finalClearTime&gt;&lt;nextClearTime&gt;-1&lt;/nextClearTime&gt;&lt;lastClearPrice&gt;388.0000&lt;/lastClearPrice&gt;&lt;lastClearTime&gt;1455372841&lt;/lastClearTime&gt;&lt;auctionStatus&gt;1&lt;/auctionStatus&gt;&lt;commandStatus&gt;0&lt;/commandStatus&gt;&lt;/getQuote&gt;' responseTime: 22 avg: 20.0 count: 1622</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:12</date>
+  <millis>1455373152025</millis>
+  <sequence>5926</sequence>
+  <logger>se.sics.tac.aw.DummyAgent</logger>
+  <level>WARNING</level>
+  <class>se.sics.tac.aw.Pascal</class>
+  <method>bidRejected</method>
+  <thread>21</thread>
+  <message>Bid Rejected: -1</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:12</date>
+  <millis>1455373152026</millis>
+  <sequence>5927</sequence>
+  <logger>se.sics.tac.aw.DummyAgent</logger>
+  <level>WARNING</level>
+  <class>se.sics.tac.aw.Pascal</class>
+  <method>bidRejected</method>
+  <thread>21</thread>
+  <message>      Reason: 20 (active bid changed)</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:12</date>
+  <millis>1455373152026</millis>
+  <sequence>5928</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>requesting quotes for auction 3 (Inflight 4)</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:12</date>
+  <millis>1455373152026</millis>
+  <sequence>5929</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML out: '&lt;getQuote&gt;&lt;auctionID&gt;88&lt;/auctionID&gt;&lt;/getQuote&gt;'</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:12</date>
+  <millis>1455373152026</millis>
+  <sequence>5930</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML in: '&lt;?xml version="1.0"?&gt;&lt;getQuote&gt;&lt;lastAskPrice&gt;367.0000&lt;/lastAskPrice&gt;&lt;lastBidPrice&gt;-1.0000&lt;/lastBidPrice&gt;&lt;lastQuoteTime&gt;1455373124&lt;/lastQuoteTime&gt;&lt;nextQuoteTime&gt;1455373153&lt;/nextQuoteTime&gt;&lt;finalClearTime&gt;1455373200&lt;/finalClearTime&gt;&lt;nextClearTime&gt;-1&lt;/nextClearTime&gt;&lt;lastClearPrice&gt;330.0000&lt;/lastClearPrice&gt;&lt;lastClearTime&gt;1455372841&lt;/lastClearTime&gt;&lt;auctionStatus&gt;1&lt;/auctionStatus&gt;&lt;commandStatus&gt;0&lt;/commandStatus&gt;&lt;/getQuote&gt;' responseTime: 23 avg: 20.0 count: 1623</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:12</date>
+  <millis>1455373152026</millis>
+  <sequence>5931</sequence>
+  <logger>se.sics.tac.aw.DummyAgent</logger>
+  <level>WARNING</level>
+  <class>se.sics.tac.aw.Pascal</class>
+  <method>bidRejected</method>
+  <thread>21</thread>
+  <message>Bid Rejected: -1</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:12</date>
+  <millis>1455373152026</millis>
+  <sequence>5932</sequence>
+  <logger>se.sics.tac.aw.DummyAgent</logger>
+  <level>WARNING</level>
+  <class>se.sics.tac.aw.Pascal</class>
+  <method>bidRejected</method>
+  <thread>21</thread>
+  <message>      Reason: 20 (active bid changed)</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:12</date>
+  <millis>1455373152026</millis>
+  <sequence>5933</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>requesting quotes for auction 4 (Outflight 2)</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:12</date>
+  <millis>1455373152026</millis>
+  <sequence>5934</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML out: '&lt;getQuote&gt;&lt;auctionID&gt;89&lt;/auctionID&gt;&lt;/getQuote&gt;'</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:12</date>
+  <millis>1455373152026</millis>
+  <sequence>5935</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML in: '&lt;?xml version="1.0"?&gt;&lt;getQuote&gt;&lt;lastAskPrice&gt;339.0000&lt;/lastAskPrice&gt;&lt;lastBidPrice&gt;-1.0000&lt;/lastBidPrice&gt;&lt;lastQuoteTime&gt;1455373151&lt;/lastQuoteTime&gt;&lt;nextQuoteTime&gt;1455373178&lt;/nextQuoteTime&gt;&lt;finalClearTime&gt;1455373200&lt;/finalClearTime&gt;&lt;nextClearTime&gt;-1&lt;/nextClearTime&gt;&lt;lastClearPrice&gt;349.0000&lt;/lastClearPrice&gt;&lt;lastClearTime&gt;1455372841&lt;/lastClearTime&gt;&lt;auctionStatus&gt;1&lt;/auctionStatus&gt;&lt;commandStatus&gt;0&lt;/commandStatus&gt;&lt;/getQuote&gt;' responseTime: 23 avg: 20.0 count: 1624</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:12</date>
+  <millis>1455373152026</millis>
+  <sequence>5936</sequence>
+  <logger>se.sics.tac.aw.DummyAgent</logger>
+  <level>WARNING</level>
+  <class>se.sics.tac.aw.Pascal</class>
+  <method>bidRejected</method>
+  <thread>21</thread>
+  <message>Bid Rejected: -1</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:12</date>
+  <millis>1455373152026</millis>
+  <sequence>5937</sequence>
+  <logger>se.sics.tac.aw.DummyAgent</logger>
+  <level>WARNING</level>
+  <class>se.sics.tac.aw.Pascal</class>
+  <method>bidRejected</method>
+  <thread>21</thread>
+  <message>      Reason: 20 (active bid changed)</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:12</date>
+  <millis>1455373152026</millis>
+  <sequence>5938</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>requesting quotes for auction 5 (Outflight 3)</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:12</date>
+  <millis>1455373152026</millis>
+  <sequence>5939</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML out: '&lt;getQuote&gt;&lt;auctionID&gt;90&lt;/auctionID&gt;&lt;/getQuote&gt;'</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:12</date>
+  <millis>1455373152026</millis>
+  <sequence>5940</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML in: '&lt;?xml version="1.0"?&gt;&lt;getQuote&gt;&lt;lastAskPrice&gt;446.0000&lt;/lastAskPrice&gt;&lt;lastBidPrice&gt;-1.0000&lt;/lastBidPrice&gt;&lt;lastQuoteTime&gt;1455373136&lt;/lastQuoteTime&gt;&lt;nextQuoteTime&gt;1455373166&lt;/nextQuoteTime&gt;&lt;finalClearTime&gt;1455373200&lt;/finalClearTime&gt;&lt;nextClearTime&gt;-1&lt;/nextClearTime&gt;&lt;lastClearPrice&gt;374.0000&lt;/lastClearPrice&gt;&lt;lastClearTime&gt;1455372841&lt;/lastClearTime&gt;&lt;auctionStatus&gt;1&lt;/auctionStatus&gt;&lt;commandStatus&gt;0&lt;/commandStatus&gt;&lt;/getQuote&gt;' responseTime: 23 avg: 20.0 count: 1625</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:12</date>
+  <millis>1455373152027</millis>
+  <sequence>5941</sequence>
+  <logger>se.sics.tac.aw.DummyAgent</logger>
+  <level>WARNING</level>
+  <class>se.sics.tac.aw.Pascal</class>
+  <method>bidRejected</method>
+  <thread>21</thread>
+  <message>Bid Rejected: -1</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:12</date>
+  <millis>1455373152027</millis>
+  <sequence>5942</sequence>
+  <logger>se.sics.tac.aw.DummyAgent</logger>
+  <level>WARNING</level>
+  <class>se.sics.tac.aw.Pascal</class>
+  <method>bidRejected</method>
+  <thread>21</thread>
+  <message>      Reason: 20 (active bid changed)</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:12</date>
+  <millis>1455373152027</millis>
+  <sequence>5943</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>requesting quotes for auction 6 (Outflight 4)</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:12</date>
+  <millis>1455373152027</millis>
+  <sequence>5944</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML out: '&lt;getQuote&gt;&lt;auctionID&gt;91&lt;/auctionID&gt;&lt;/getQuote&gt;'</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:12</date>
+  <millis>1455373152027</millis>
+  <sequence>5945</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML in: '&lt;?xml version="1.0"?&gt;&lt;getQuote&gt;&lt;lastAskPrice&gt;414.0000&lt;/lastAskPrice&gt;&lt;lastBidPrice&gt;-1.0000&lt;/lastBidPrice&gt;&lt;lastQuoteTime&gt;1455373128&lt;/lastQuoteTime&gt;&lt;nextQuoteTime&gt;1455373154&lt;/nextQuoteTime&gt;&lt;finalClearTime&gt;1455373200&lt;/finalClearTime&gt;&lt;nextClearTime&gt;-1&lt;/nextClearTime&gt;&lt;lastClearPrice&gt;386.0000&lt;/lastClearPrice&gt;&lt;lastClearTime&gt;1455372841&lt;/lastClearTime&gt;&lt;auctionStatus&gt;1&lt;/auctionStatus&gt;&lt;commandStatus&gt;0&lt;/commandStatus&gt;&lt;/getQuote&gt;' responseTime: 24 avg: 20.0 count: 1626</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:12</date>
+  <millis>1455373152027</millis>
+  <sequence>5946</sequence>
+  <logger>se.sics.tac.aw.DummyAgent</logger>
+  <level>WARNING</level>
+  <class>se.sics.tac.aw.Pascal</class>
+  <method>bidRejected</method>
+  <thread>21</thread>
+  <message>Bid Rejected: -1</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:12</date>
+  <millis>1455373152027</millis>
+  <sequence>5947</sequence>
+  <logger>se.sics.tac.aw.DummyAgent</logger>
+  <level>WARNING</level>
+  <class>se.sics.tac.aw.Pascal</class>
+  <method>bidRejected</method>
+  <thread>21</thread>
+  <message>      Reason: 20 (active bid changed)</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:12</date>
+  <millis>1455373152027</millis>
+  <sequence>5948</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>requesting quotes for auction 7 (Outflight 5)</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:12</date>
+  <millis>1455373152027</millis>
+  <sequence>5949</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML out: '&lt;getQuote&gt;&lt;auctionID&gt;92&lt;/auctionID&gt;&lt;/getQuote&gt;'</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:12</date>
+  <millis>1455373152027</millis>
+  <sequence>5950</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML in: '&lt;?xml version="1.0"?&gt;&lt;getQuote&gt;&lt;lastAskPrice&gt;485.0000&lt;/lastAskPrice&gt;&lt;lastBidPrice&gt;-1.0000&lt;/lastBidPrice&gt;&lt;lastQuoteTime&gt;1455373128&lt;/lastQuoteTime&gt;&lt;nextQuoteTime&gt;1455373155&lt;/nextQuoteTime&gt;&lt;finalClearTime&gt;1455373200&lt;/finalClearTime&gt;&lt;nextClearTime&gt;-1&lt;/nextClearTime&gt;&lt;lastClearPrice&gt;364.0000&lt;/lastClearPrice&gt;&lt;lastClearTime&gt;1455372841&lt;/lastClearTime&gt;&lt;auctionStatus&gt;1&lt;/auctionStatus&gt;&lt;commandStatus&gt;0&lt;/commandStatus&gt;&lt;/getQuote&gt;' responseTime: 24 avg: 20.0 count: 1627</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:12</date>
+  <millis>1455373152027</millis>
+  <sequence>5951</sequence>
+  <logger>se.sics.tac.aw.DummyAgent</logger>
+  <level>WARNING</level>
+  <class>se.sics.tac.aw.Pascal</class>
+  <method>bidRejected</method>
+  <thread>21</thread>
+  <message>Bid Rejected: -1</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:12</date>
+  <millis>1455373152027</millis>
+  <sequence>5952</sequence>
+  <logger>se.sics.tac.aw.DummyAgent</logger>
+  <level>WARNING</level>
+  <class>se.sics.tac.aw.Pascal</class>
+  <method>bidRejected</method>
+  <thread>21</thread>
+  <message>      Reason: 20 (active bid changed)</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:12</date>
+  <millis>1455373152027</millis>
+  <sequence>5953</sequence>
+  <logger>se.sics.tac.aw.DummyAgent</logger>
+  <level>FINE</level>
+  <class>se.sics.tac.aw.Pascal</class>
+  <method>quoteUpdated</method>
+  <thread>21</thread>
+  <message>All quotes for flight has been updated</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:17</date>
+  <millis>1455373157007</millis>
+  <sequence>5954</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML out: '&lt;bidInfo&gt;&lt;bidID&gt;1706&lt;/bidID&gt;&lt;/bidInfo&gt;'</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:17</date>
+  <millis>1455373157008</millis>
+  <sequence>5955</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML in: '&lt;?xml version="1.0"?&gt;&lt;bidInfo&gt;&lt;bidString&gt;((-1.0 89.6808))&lt;/bidString&gt;&lt;bidHash&gt;((-1.0 89.6808))&lt;/bidHash&gt;&lt;processingState&gt;2&lt;/processingState&gt;&lt;timeProcessed&gt;1455373142&lt;/timeProcessed&gt;&lt;timeClosed&gt;0&lt;/timeClosed&gt;&lt;withdrawState&gt;0&lt;/withdrawState&gt;&lt;timeWithdrawRequest&gt;0&lt;/timeWithdrawRequest&gt;&lt;timeWithdraw&gt;0&lt;/timeWithdraw&gt;&lt;rejectReason&gt;0&lt;/rejectReason&gt;&lt;commandStatus&gt;0&lt;/commandStatus&gt;&lt;/bidInfo&gt;' responseTime: 0 avg: 20.0 count: 1628</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:17</date>
+  <millis>1455373157008</millis>
+  <sequence>5956</sequence>
+  <logger>se.sics.tac.aw.DummyAgent</logger>
+  <level>FINE</level>
+  <class>se.sics.tac.aw.Pascal</class>
+  <method>bidUpdated</method>
+  <thread>21</thread>
+  <message>Bid Updated: id=1706 auction=18 state=valid</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:17</date>
+  <millis>1455373157008</millis>
+  <sequence>5957</sequence>
+  <logger>se.sics.tac.aw.DummyAgent</logger>
+  <level>FINE</level>
+  <class>se.sics.tac.aw.Pascal</class>
+  <method>bidUpdated</method>
+  <thread>21</thread>
+  <message>       Hash: ((-1.0 89.6808))</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:17</date>
+  <millis>1455373157008</millis>
+  <sequence>5958</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML out: '&lt;bidInfo&gt;&lt;bidID&gt;1707&lt;/bidID&gt;&lt;/bidInfo&gt;'</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:17</date>
+  <millis>1455373157008</millis>
+  <sequence>5959</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML in: '&lt;?xml version="1.0"?&gt;&lt;bidInfo&gt;&lt;bidString&gt;((-1.0 89.6807))&lt;/bidString&gt;&lt;bidHash&gt;((-1.0 89.6807))&lt;/bidHash&gt;&lt;processingState&gt;2&lt;/processingState&gt;&lt;timeProcessed&gt;1455373142&lt;/timeProcessed&gt;&lt;timeClosed&gt;0&lt;/timeClosed&gt;&lt;withdrawState&gt;0&lt;/withdrawState&gt;&lt;timeWithdrawRequest&gt;0&lt;/timeWithdrawRequest&gt;&lt;timeWithdraw&gt;0&lt;/timeWithdraw&gt;&lt;rejectReason&gt;0&lt;/rejectReason&gt;&lt;commandStatus&gt;0&lt;/commandStatus&gt;&lt;/bidInfo&gt;' responseTime: 1 avg: 20.0 count: 1629</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:17</date>
+  <millis>1455373157009</millis>
+  <sequence>5960</sequence>
+  <logger>se.sics.tac.aw.DummyAgent</logger>
+  <level>FINE</level>
+  <class>se.sics.tac.aw.Pascal</class>
+  <method>bidUpdated</method>
+  <thread>21</thread>
+  <message>Bid Updated: id=1707 auction=19 state=valid</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:17</date>
+  <millis>1455373157009</millis>
+  <sequence>5961</sequence>
+  <logger>se.sics.tac.aw.DummyAgent</logger>
+  <level>FINE</level>
+  <class>se.sics.tac.aw.Pascal</class>
+  <method>bidUpdated</method>
+  <thread>21</thread>
+  <message>       Hash: ((-1.0 89.6807))</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:17</date>
+  <millis>1455373157009</millis>
+  <sequence>5962</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML out: '&lt;bidInfo&gt;&lt;bidID&gt;1708&lt;/bidID&gt;&lt;/bidInfo&gt;'</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:17</date>
+  <millis>1455373157009</millis>
+  <sequence>5963</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML in: '&lt;?xml version="1.0"?&gt;&lt;bidInfo&gt;&lt;bidString&gt;((-2.0 89.6802))&lt;/bidString&gt;&lt;bidHash&gt;((-2.0 89.6802))&lt;/bidHash&gt;&lt;processingState&gt;2&lt;/processingState&gt;&lt;timeProcessed&gt;1455373142&lt;/timeProcessed&gt;&lt;timeClosed&gt;0&lt;/timeClosed&gt;&lt;withdrawState&gt;0&lt;/withdrawState&gt;&lt;timeWithdrawRequest&gt;0&lt;/timeWithdrawRequest&gt;&lt;timeWithdraw&gt;0&lt;/timeWithdraw&gt;&lt;rejectReason&gt;0&lt;/rejectReason&gt;&lt;commandStatus&gt;0&lt;/commandStatus&gt;&lt;/bidInfo&gt;' responseTime: 2 avg: 20.0 count: 1630</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:17</date>
+  <millis>1455373157009</millis>
+  <sequence>5964</sequence>
+  <logger>se.sics.tac.aw.DummyAgent</logger>
+  <level>FINE</level>
+  <class>se.sics.tac.aw.Pascal</class>
+  <method>bidUpdated</method>
+  <thread>21</thread>
+  <message>Bid Updated: id=1708 auction=22 state=valid</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:17</date>
+  <millis>1455373157009</millis>
+  <sequence>5965</sequence>
+  <logger>se.sics.tac.aw.DummyAgent</logger>
+  <level>FINE</level>
+  <class>se.sics.tac.aw.Pascal</class>
+  <method>bidUpdated</method>
+  <thread>21</thread>
+  <message>       Hash: ((-2.0 89.6802))</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:17</date>
+  <millis>1455373157011</millis>
+  <sequence>5966</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML out: '&lt;bidInfo&gt;&lt;bidID&gt;1709&lt;/bidID&gt;&lt;/bidInfo&gt;'</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:17</date>
+  <millis>1455373157011</millis>
+  <sequence>5967</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML in: '&lt;?xml version="1.0"?&gt;&lt;bidInfo&gt;&lt;bidString&gt;((-4.0 89.6800))&lt;/bidString&gt;&lt;bidHash&gt;((-4.0 89.6800))&lt;/bidHash&gt;&lt;processingState&gt;2&lt;/processingState&gt;&lt;timeProcessed&gt;1455373142&lt;/timeProcessed&gt;&lt;timeClosed&gt;0&lt;/timeClosed&gt;&lt;withdrawState&gt;0&lt;/withdrawState&gt;&lt;timeWithdrawRequest&gt;0&lt;/timeWithdrawRequest&gt;&lt;timeWithdraw&gt;0&lt;/timeWithdraw&gt;&lt;rejectReason&gt;0&lt;/rejectReason&gt;&lt;commandStatus&gt;0&lt;/commandStatus&gt;&lt;/bidInfo&gt;' responseTime: 4 avg: 20.0 count: 1631</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:17</date>
+  <millis>1455373157012</millis>
+  <sequence>5968</sequence>
+  <logger>se.sics.tac.aw.DummyAgent</logger>
+  <level>FINE</level>
+  <class>se.sics.tac.aw.Pascal</class>
+  <method>bidUpdated</method>
+  <thread>21</thread>
+  <message>Bid Updated: id=1709 auction=23 state=valid</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:17</date>
+  <millis>1455373157012</millis>
+  <sequence>5969</sequence>
+  <logger>se.sics.tac.aw.DummyAgent</logger>
+  <level>FINE</level>
+  <class>se.sics.tac.aw.Pascal</class>
+  <method>bidUpdated</method>
+  <thread>21</thread>
+  <message>       Hash: ((-4.0 89.6800))</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:17</date>
+  <millis>1455373157012</millis>
+  <sequence>5970</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML out: '&lt;transIDs&gt;&lt;earliestTransID&gt;698&lt;/earliestTransID&gt;&lt;/transIDs&gt;'</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:17</date>
+  <millis>1455373157012</millis>
+  <sequence>5971</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML in: '&lt;?xml version="1.0"?&gt;&lt;transIDs&gt;&lt;ids&gt;&lt;list&gt;&lt;/list&gt;&lt;/ids&gt;&lt;more&gt;0&lt;/more&gt;&lt;commandStatus&gt;0&lt;/commandStatus&gt;&lt;/transIDs&gt;' responseTime: 5 avg: 20.0 count: 1632</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:22</date>
+  <millis>1455373162015</millis>
+  <sequence>5972</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>requesting quotes for auction 0 (Inflight 1)</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:22</date>
+  <millis>1455373162016</millis>
+  <sequence>5973</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML out: '&lt;getQuote&gt;&lt;auctionID&gt;85&lt;/auctionID&gt;&lt;/getQuote&gt;'</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:22</date>
+  <millis>1455373162016</millis>
+  <sequence>5974</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML in: '&lt;?xml version="1.0"?&gt;&lt;getQuote&gt;&lt;lastAskPrice&gt;667.0000&lt;/lastAskPrice&gt;&lt;lastBidPrice&gt;-1.0000&lt;/lastBidPrice&gt;&lt;lastQuoteTime&gt;1455373150&lt;/lastQuoteTime&gt;&lt;nextQuoteTime&gt;1455373175&lt;/nextQuoteTime&gt;&lt;finalClearTime&gt;1455373200&lt;/finalClearTime&gt;&lt;nextClearTime&gt;-1&lt;/nextClearTime&gt;&lt;lastClearPrice&gt;430.0000&lt;/lastClearPrice&gt;&lt;lastClearTime&gt;1455372841&lt;/lastClearTime&gt;&lt;auctionStatus&gt;1&lt;/auctionStatus&gt;&lt;commandStatus&gt;0&lt;/commandStatus&gt;&lt;/getQuote&gt;' responseTime: 1 avg: 20.0 count: 1633</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:22</date>
+  <millis>1455373162016</millis>
+  <sequence>5975</sequence>
+  <logger>se.sics.tac.aw.DummyAgent</logger>
+  <level>WARNING</level>
+  <class>se.sics.tac.aw.Pascal</class>
+  <method>bidRejected</method>
+  <thread>21</thread>
+  <message>Bid Rejected: -1</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:22</date>
+  <millis>1455373162016</millis>
+  <sequence>5976</sequence>
+  <logger>se.sics.tac.aw.DummyAgent</logger>
+  <level>WARNING</level>
+  <class>se.sics.tac.aw.Pascal</class>
+  <method>bidRejected</method>
+  <thread>21</thread>
+  <message>      Reason: 20 (active bid changed)</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:22</date>
+  <millis>1455373162016</millis>
+  <sequence>5977</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>requesting quotes for auction 1 (Inflight 2)</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:22</date>
+  <millis>1455373162017</millis>
+  <sequence>5978</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML out: '&lt;getQuote&gt;&lt;auctionID&gt;86&lt;/auctionID&gt;&lt;/getQuote&gt;'</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:22</date>
+  <millis>1455373162017</millis>
+  <sequence>5979</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML in: '&lt;?xml version="1.0"?&gt;&lt;getQuote&gt;&lt;lastAskPrice&gt;294.0000&lt;/lastAskPrice&gt;&lt;lastBidPrice&gt;-1.0000&lt;/lastBidPrice&gt;&lt;lastQuoteTime&gt;1455373140&lt;/lastQuoteTime&gt;&lt;nextQuoteTime&gt;1455373170&lt;/nextQuoteTime&gt;&lt;finalClearTime&gt;1455373200&lt;/finalClearTime&gt;&lt;nextClearTime&gt;-1&lt;/nextClearTime&gt;&lt;lastClearPrice&gt;263.0000&lt;/lastClearPrice&gt;&lt;lastClearTime&gt;1455372480&lt;/lastClearTime&gt;&lt;auctionStatus&gt;1&lt;/auctionStatus&gt;&lt;commandStatus&gt;0&lt;/commandStatus&gt;&lt;/getQuote&gt;' responseTime: 2 avg: 20.0 count: 1634</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:22</date>
+  <millis>1455373162017</millis>
+  <sequence>5980</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>requesting quotes for auction 2 (Inflight 3)</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:22</date>
+  <millis>1455373162017</millis>
+  <sequence>5981</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML out: '&lt;getQuote&gt;&lt;auctionID&gt;87&lt;/auctionID&gt;&lt;/getQuote&gt;'</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:22</date>
+  <millis>1455373162017</millis>
+  <sequence>5982</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML in: '&lt;?xml version="1.0"?&gt;&lt;getQuote&gt;&lt;lastAskPrice&gt;800.0000&lt;/lastAskPrice&gt;&lt;lastBidPrice&gt;-1.0000&lt;/lastBidPrice&gt;&lt;lastQuoteTime&gt;1455373158&lt;/lastQuoteTime&gt;&lt;nextQuoteTime&gt;1455373182&lt;/nextQuoteTime&gt;&lt;finalClearTime&gt;1455373200&lt;/finalClearTime&gt;&lt;nextClearTime&gt;-1&lt;/nextClearTime&gt;&lt;lastClearPrice&gt;388.0000&lt;/lastClearPrice&gt;&lt;lastClearTime&gt;1455372841&lt;/lastClearTime&gt;&lt;auctionStatus&gt;1&lt;/auctionStatus&gt;&lt;commandStatus&gt;0&lt;/commandStatus&gt;&lt;/getQuote&gt;' responseTime: 3 avg: 20.0 count: 1635</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:22</date>
+  <millis>1455373162018</millis>
+  <sequence>5983</sequence>
+  <logger>se.sics.tac.aw.DummyAgent</logger>
+  <level>WARNING</level>
+  <class>se.sics.tac.aw.Pascal</class>
+  <method>bidRejected</method>
+  <thread>21</thread>
+  <message>Bid Rejected: -1</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:22</date>
+  <millis>1455373162018</millis>
+  <sequence>5984</sequence>
+  <logger>se.sics.tac.aw.DummyAgent</logger>
+  <level>WARNING</level>
+  <class>se.sics.tac.aw.Pascal</class>
+  <method>bidRejected</method>
+  <thread>21</thread>
+  <message>      Reason: 20 (active bid changed)</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:22</date>
+  <millis>1455373162018</millis>
+  <sequence>5985</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>requesting quotes for auction 3 (Inflight 4)</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:22</date>
+  <millis>1455373162018</millis>
+  <sequence>5986</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML out: '&lt;getQuote&gt;&lt;auctionID&gt;88&lt;/auctionID&gt;&lt;/getQuote&gt;'</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:22</date>
+  <millis>1455373162018</millis>
+  <sequence>5987</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML in: '&lt;?xml version="1.0"?&gt;&lt;getQuote&gt;&lt;lastAskPrice&gt;373.0000&lt;/lastAskPrice&gt;&lt;lastBidPrice&gt;-1.0000&lt;/lastBidPrice&gt;&lt;lastQuoteTime&gt;1455373153&lt;/lastQuoteTime&gt;&lt;nextQuoteTime&gt;1455373183&lt;/nextQuoteTime&gt;&lt;finalClearTime&gt;1455373200&lt;/finalClearTime&gt;&lt;nextClearTime&gt;-1&lt;/nextClearTime&gt;&lt;lastClearPrice&gt;330.0000&lt;/lastClearPrice&gt;&lt;lastClearTime&gt;1455372841&lt;/lastClearTime&gt;&lt;auctionStatus&gt;1&lt;/auctionStatus&gt;&lt;commandStatus&gt;0&lt;/commandStatus&gt;&lt;/getQuote&gt;' responseTime: 4 avg: 20.0 count: 1636</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:22</date>
+  <millis>1455373162018</millis>
+  <sequence>5988</sequence>
+  <logger>se.sics.tac.aw.DummyAgent</logger>
+  <level>WARNING</level>
+  <class>se.sics.tac.aw.Pascal</class>
+  <method>bidRejected</method>
+  <thread>21</thread>
+  <message>Bid Rejected: -1</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:22</date>
+  <millis>1455373162019</millis>
+  <sequence>5989</sequence>
+  <logger>se.sics.tac.aw.DummyAgent</logger>
+  <level>WARNING</level>
+  <class>se.sics.tac.aw.Pascal</class>
+  <method>bidRejected</method>
+  <thread>21</thread>
+  <message>      Reason: 20 (active bid changed)</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:22</date>
+  <millis>1455373162019</millis>
+  <sequence>5990</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>requesting quotes for auction 4 (Outflight 2)</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:22</date>
+  <millis>1455373162019</millis>
+  <sequence>5991</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML out: '&lt;getQuote&gt;&lt;auctionID&gt;89&lt;/auctionID&gt;&lt;/getQuote&gt;'</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:22</date>
+  <millis>1455373162019</millis>
+  <sequence>5992</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML in: '&lt;?xml version="1.0"?&gt;&lt;getQuote&gt;&lt;lastAskPrice&gt;339.0000&lt;/lastAskPrice&gt;&lt;lastBidPrice&gt;-1.0000&lt;/lastBidPrice&gt;&lt;lastQuoteTime&gt;1455373151&lt;/lastQuoteTime&gt;&lt;nextQuoteTime&gt;1455373178&lt;/nextQuoteTime&gt;&lt;finalClearTime&gt;1455373200&lt;/finalClearTime&gt;&lt;nextClearTime&gt;-1&lt;/nextClearTime&gt;&lt;lastClearPrice&gt;349.0000&lt;/lastClearPrice&gt;&lt;lastClearTime&gt;1455372841&lt;/lastClearTime&gt;&lt;auctionStatus&gt;1&lt;/auctionStatus&gt;&lt;commandStatus&gt;0&lt;/commandStatus&gt;&lt;/getQuote&gt;' responseTime: 4 avg: 20.0 count: 1637</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:22</date>
+  <millis>1455373162019</millis>
+  <sequence>5993</sequence>
+  <logger>se.sics.tac.aw.DummyAgent</logger>
+  <level>WARNING</level>
+  <class>se.sics.tac.aw.Pascal</class>
+  <method>bidRejected</method>
+  <thread>21</thread>
+  <message>Bid Rejected: -1</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:22</date>
+  <millis>1455373162019</millis>
+  <sequence>5994</sequence>
+  <logger>se.sics.tac.aw.DummyAgent</logger>
+  <level>WARNING</level>
+  <class>se.sics.tac.aw.Pascal</class>
+  <method>bidRejected</method>
+  <thread>21</thread>
+  <message>      Reason: 20 (active bid changed)</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:22</date>
+  <millis>1455373162020</millis>
+  <sequence>5995</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>requesting quotes for auction 5 (Outflight 3)</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:22</date>
+  <millis>1455373162020</millis>
+  <sequence>5996</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML out: '&lt;getQuote&gt;&lt;auctionID&gt;90&lt;/auctionID&gt;&lt;/getQuote&gt;'</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:22</date>
+  <millis>1455373162020</millis>
+  <sequence>5997</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML in: '&lt;?xml version="1.0"?&gt;&lt;getQuote&gt;&lt;lastAskPrice&gt;446.0000&lt;/lastAskPrice&gt;&lt;lastBidPrice&gt;-1.0000&lt;/lastBidPrice&gt;&lt;lastQuoteTime&gt;1455373136&lt;/lastQuoteTime&gt;&lt;nextQuoteTime&gt;1455373166&lt;/nextQuoteTime&gt;&lt;finalClearTime&gt;1455373200&lt;/finalClearTime&gt;&lt;nextClearTime&gt;-1&lt;/nextClearTime&gt;&lt;lastClearPrice&gt;374.0000&lt;/lastClearPrice&gt;&lt;lastClearTime&gt;1455372841&lt;/lastClearTime&gt;&lt;auctionStatus&gt;1&lt;/auctionStatus&gt;&lt;commandStatus&gt;0&lt;/commandStatus&gt;&lt;/getQuote&gt;' responseTime: 5 avg: 20.0 count: 1638</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:22</date>
+  <millis>1455373162020</millis>
+  <sequence>5998</sequence>
+  <logger>se.sics.tac.aw.DummyAgent</logger>
+  <level>WARNING</level>
+  <class>se.sics.tac.aw.Pascal</class>
+  <method>bidRejected</method>
+  <thread>21</thread>
+  <message>Bid Rejected: -1</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:22</date>
+  <millis>1455373162020</millis>
+  <sequence>5999</sequence>
+  <logger>se.sics.tac.aw.DummyAgent</logger>
+  <level>WARNING</level>
+  <class>se.sics.tac.aw.Pascal</class>
+  <method>bidRejected</method>
+  <thread>21</thread>
+  <message>      Reason: 20 (active bid changed)</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:22</date>
+  <millis>1455373162021</millis>
+  <sequence>6000</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>requesting quotes for auction 6 (Outflight 4)</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:22</date>
+  <millis>1455373162021</millis>
+  <sequence>6001</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML out: '&lt;getQuote&gt;&lt;auctionID&gt;91&lt;/auctionID&gt;&lt;/getQuote&gt;'</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:22</date>
+  <millis>1455373162021</millis>
+  <sequence>6002</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML in: '&lt;?xml version="1.0"?&gt;&lt;getQuote&gt;&lt;lastAskPrice&gt;411.0000&lt;/lastAskPrice&gt;&lt;lastBidPrice&gt;-1.0000&lt;/lastBidPrice&gt;&lt;lastQuoteTime&gt;1455373154&lt;/lastQuoteTime&gt;&lt;nextQuoteTime&gt;1455373180&lt;/nextQuoteTime&gt;&lt;finalClearTime&gt;1455373200&lt;/finalClearTime&gt;&lt;nextClearTime&gt;-1&lt;/nextClearTime&gt;&lt;lastClearPrice&gt;386.0000&lt;/lastClearPrice&gt;&lt;lastClearTime&gt;1455372841&lt;/lastClearTime&gt;&lt;auctionStatus&gt;1&lt;/auctionStatus&gt;&lt;commandStatus&gt;0&lt;/commandStatus&gt;&lt;/getQuote&gt;' responseTime: 6 avg: 20.0 count: 1639</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:22</date>
+  <millis>1455373162021</millis>
+  <sequence>6003</sequence>
+  <logger>se.sics.tac.aw.DummyAgent</logger>
+  <level>WARNING</level>
+  <class>se.sics.tac.aw.Pascal</class>
+  <method>bidRejected</method>
+  <thread>21</thread>
+  <message>Bid Rejected: -1</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:22</date>
+  <millis>1455373162021</millis>
+  <sequence>6004</sequence>
+  <logger>se.sics.tac.aw.DummyAgent</logger>
+  <level>WARNING</level>
+  <class>se.sics.tac.aw.Pascal</class>
+  <method>bidRejected</method>
+  <thread>21</thread>
+  <message>      Reason: 20 (active bid changed)</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:22</date>
+  <millis>1455373162023</millis>
+  <sequence>6005</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>requesting quotes for auction 7 (Outflight 5)</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:22</date>
+  <millis>1455373162023</millis>
+  <sequence>6006</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML out: '&lt;getQuote&gt;&lt;auctionID&gt;92&lt;/auctionID&gt;&lt;/getQuote&gt;'</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:22</date>
+  <millis>1455373162023</millis>
+  <sequence>6007</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML in: '&lt;?xml version="1.0"?&gt;&lt;getQuote&gt;&lt;lastAskPrice&gt;507.0000&lt;/lastAskPrice&gt;&lt;lastBidPrice&gt;-1.0000&lt;/lastBidPrice&gt;&lt;lastQuoteTime&gt;1455373155&lt;/lastQuoteTime&gt;&lt;nextQuoteTime&gt;1455373179&lt;/nextQuoteTime&gt;&lt;finalClearTime&gt;1455373200&lt;/finalClearTime&gt;&lt;nextClearTime&gt;-1&lt;/nextClearTime&gt;&lt;lastClearPrice&gt;364.0000&lt;/lastClearPrice&gt;&lt;lastClearTime&gt;1455372841&lt;/lastClearTime&gt;&lt;auctionStatus&gt;1&lt;/auctionStatus&gt;&lt;commandStatus&gt;0&lt;/commandStatus&gt;&lt;/getQuote&gt;' responseTime: 8 avg: 20.0 count: 1640</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:22</date>
+  <millis>1455373162023</millis>
+  <sequence>6008</sequence>
+  <logger>se.sics.tac.aw.DummyAgent</logger>
+  <level>WARNING</level>
+  <class>se.sics.tac.aw.Pascal</class>
+  <method>bidRejected</method>
+  <thread>21</thread>
+  <message>Bid Rejected: -1</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:22</date>
+  <millis>1455373162023</millis>
+  <sequence>6009</sequence>
+  <logger>se.sics.tac.aw.DummyAgent</logger>
+  <level>WARNING</level>
+  <class>se.sics.tac.aw.Pascal</class>
+  <method>bidRejected</method>
+  <thread>21</thread>
+  <message>      Reason: 20 (active bid changed)</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:22</date>
+  <millis>1455373162023</millis>
+  <sequence>6010</sequence>
+  <logger>se.sics.tac.aw.DummyAgent</logger>
+  <level>FINE</level>
+  <class>se.sics.tac.aw.Pascal</class>
+  <method>quoteUpdated</method>
+  <thread>21</thread>
+  <message>All quotes for flight has been updated</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:32</date>
+  <millis>1455373172057</millis>
+  <sequence>6011</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>requesting quotes for auction 16 (Alligator 1)</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:32</date>
+  <millis>1455373172057</millis>
+  <sequence>6012</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML out: '&lt;getQuote&gt;&lt;auctionID&gt;101&lt;/auctionID&gt;&lt;/getQuote&gt;'</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:32</date>
+  <millis>1455373172057</millis>
+  <sequence>6013</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML in: '&lt;?xml version="1.0"?&gt;&lt;getQuote&gt;&lt;lastAskPrice&gt;120.0000&lt;/lastAskPrice&gt;&lt;lastBidPrice&gt;60.0000&lt;/lastBidPrice&gt;&lt;lastQuoteTime&gt;1455372480&lt;/lastQuoteTime&gt;&lt;nextQuoteTime&gt;1455372540&lt;/nextQuoteTime&gt;&lt;finalClearTime&gt;1455373200&lt;/finalClearTime&gt;&lt;nextClearTime&gt;-1&lt;/nextClearTime&gt;&lt;lastClearPrice&gt;0.0000&lt;/lastClearPrice&gt;&lt;lastClearTime&gt;0&lt;/lastClearTime&gt;&lt;auctionStatus&gt;1&lt;/auctionStatus&gt;&lt;commandStatus&gt;0&lt;/commandStatus&gt;&lt;/getQuote&gt;' responseTime: 1 avg: 20.0 count: 1641</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:32</date>
+  <millis>1455373172058</millis>
+  <sequence>6014</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>requesting quotes for auction 17 (Alligator 2)</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:32</date>
+  <millis>1455373172058</millis>
+  <sequence>6015</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML out: '&lt;getQuote&gt;&lt;auctionID&gt;102&lt;/auctionID&gt;&lt;/getQuote&gt;'</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:32</date>
+  <millis>1455373172058</millis>
+  <sequence>6016</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML in: '&lt;?xml version="1.0"?&gt;&lt;getQuote&gt;&lt;lastAskPrice&gt;120.0000&lt;/lastAskPrice&gt;&lt;lastBidPrice&gt;60.0000&lt;/lastBidPrice&gt;&lt;lastQuoteTime&gt;1455372480&lt;/lastQuoteTime&gt;&lt;nextQuoteTime&gt;1455372540&lt;/nextQuoteTime&gt;&lt;finalClearTime&gt;1455373200&lt;/finalClearTime&gt;&lt;nextClearTime&gt;-1&lt;/nextClearTime&gt;&lt;lastClearPrice&gt;0.0000&lt;/lastClearPrice&gt;&lt;lastClearTime&gt;0&lt;/lastClearTime&gt;&lt;auctionStatus&gt;1&lt;/auctionStatus&gt;&lt;commandStatus&gt;0&lt;/commandStatus&gt;&lt;/getQuote&gt;' responseTime: 2 avg: 20.0 count: 1642</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:32</date>
+  <millis>1455373172059</millis>
+  <sequence>6017</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>requesting quotes for auction 18 (Alligator 3)</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:32</date>
+  <millis>1455373172059</millis>
+  <sequence>6018</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML out: '&lt;getQuote&gt;&lt;auctionID&gt;103&lt;/auctionID&gt;&lt;bidID&gt;1706&lt;/bidID&gt;&lt;/getQuote&gt;'</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:32</date>
+  <millis>1455373172059</millis>
+  <sequence>6019</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML in: '&lt;?xml version="1.0"?&gt;&lt;getQuote&gt;&lt;lastAskPrice&gt;89.6808&lt;/lastAskPrice&gt;&lt;lastBidPrice&gt;60.0000&lt;/lastBidPrice&gt;&lt;hypotheticalQuantityWon&gt; &lt;/hypotheticalQuantityWon&gt;&lt;lastQuoteTime&gt;1455373142&lt;/lastQuoteTime&gt;&lt;nextQuoteTime&gt;1455373202&lt;/nextQuoteTime&gt;&lt;finalClearTime&gt;1455373200&lt;/finalClearTime&gt;&lt;nextClearTime&gt;-1&lt;/nextClearTime&gt;&lt;lastClearPrice&gt;0.0000&lt;/lastClearPrice&gt;&lt;lastClearTime&gt;0&lt;/lastClearTime&gt;&lt;auctionStatus&gt;1&lt;/auctionStatus&gt;&lt;commandStatus&gt;0&lt;/commandStatus&gt;&lt;/getQuote&gt;' responseTime: 3 avg: 20.0 count: 1643</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:32</date>
+  <millis>1455373172060</millis>
+  <sequence>6020</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>requesting quotes for auction 19 (Alligator 4)</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:32</date>
+  <millis>1455373172060</millis>
+  <sequence>6021</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML out: '&lt;getQuote&gt;&lt;auctionID&gt;104&lt;/auctionID&gt;&lt;bidID&gt;1707&lt;/bidID&gt;&lt;/getQuote&gt;'</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:32</date>
+  <millis>1455373172060</millis>
+  <sequence>6022</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML in: '&lt;?xml version="1.0"?&gt;&lt;getQuote&gt;&lt;lastAskPrice&gt;89.6807&lt;/lastAskPrice&gt;&lt;lastBidPrice&gt;60.0000&lt;/lastBidPrice&gt;&lt;hypotheticalQuantityWon&gt; &lt;/hypotheticalQuantityWon&gt;&lt;lastQuoteTime&gt;1455373142&lt;/lastQuoteTime&gt;&lt;nextQuoteTime&gt;1455373202&lt;/nextQuoteTime&gt;&lt;finalClearTime&gt;1455373200&lt;/finalClearTime&gt;&lt;nextClearTime&gt;-1&lt;/nextClearTime&gt;&lt;lastClearPrice&gt;0.0000&lt;/lastClearPrice&gt;&lt;lastClearTime&gt;0&lt;/lastClearTime&gt;&lt;auctionStatus&gt;1&lt;/auctionStatus&gt;&lt;commandStatus&gt;0&lt;/commandStatus&gt;&lt;/getQuote&gt;' responseTime: 4 avg: 20.0 count: 1644</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:32</date>
+  <millis>1455373172061</millis>
+  <sequence>6023</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>requesting quotes for auction 20 (Amusement 1)</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:32</date>
+  <millis>1455373172061</millis>
+  <sequence>6024</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML out: '&lt;getQuote&gt;&lt;auctionID&gt;105&lt;/auctionID&gt;&lt;/getQuote&gt;'</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:32</date>
+  <millis>1455373172061</millis>
+  <sequence>6025</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML in: '&lt;?xml version="1.0"?&gt;&lt;getQuote&gt;&lt;lastAskPrice&gt;120.0000&lt;/lastAskPrice&gt;&lt;lastBidPrice&gt;60.0000&lt;/lastBidPrice&gt;&lt;lastQuoteTime&gt;1455372991&lt;/lastQuoteTime&gt;&lt;nextQuoteTime&gt;1455373051&lt;/nextQuoteTime&gt;&lt;finalClearTime&gt;1455373200&lt;/finalClearTime&gt;&lt;nextClearTime&gt;-1&lt;/nextClearTime&gt;&lt;lastClearPrice&gt;120.0000&lt;/lastClearPrice&gt;&lt;lastClearTime&gt;1455372991&lt;/lastClearTime&gt;&lt;auctionStatus&gt;1&lt;/auctionStatus&gt;&lt;commandStatus&gt;0&lt;/commandStatus&gt;&lt;/getQuote&gt;' responseTime: 5 avg: 20.0 count: 1645</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:32</date>
+  <millis>1455373172062</millis>
+  <sequence>6026</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>requesting quotes for auction 21 (Amusement 2)</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:32</date>
+  <millis>1455373172062</millis>
+  <sequence>6027</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML out: '&lt;getQuote&gt;&lt;auctionID&gt;106&lt;/auctionID&gt;&lt;/getQuote&gt;'</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:32</date>
+  <millis>1455373172062</millis>
+  <sequence>6028</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML in: '&lt;?xml version="1.0"?&gt;&lt;getQuote&gt;&lt;lastAskPrice&gt;120.0000&lt;/lastAskPrice&gt;&lt;lastBidPrice&gt;60.0000&lt;/lastBidPrice&gt;&lt;lastQuoteTime&gt;1455372480&lt;/lastQuoteTime&gt;&lt;nextQuoteTime&gt;1455372540&lt;/nextQuoteTime&gt;&lt;finalClearTime&gt;1455373200&lt;/finalClearTime&gt;&lt;nextClearTime&gt;-1&lt;/nextClearTime&gt;&lt;lastClearPrice&gt;0.0000&lt;/lastClearPrice&gt;&lt;lastClearTime&gt;0&lt;/lastClearTime&gt;&lt;auctionStatus&gt;1&lt;/auctionStatus&gt;&lt;commandStatus&gt;0&lt;/commandStatus&gt;&lt;/getQuote&gt;' responseTime: 6 avg: 20.0 count: 1646</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:32</date>
+  <millis>1455373172063</millis>
+  <sequence>6029</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>requesting quotes for auction 22 (Amusement 3)</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:32</date>
+  <millis>1455373172063</millis>
+  <sequence>6030</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML out: '&lt;getQuote&gt;&lt;auctionID&gt;107&lt;/auctionID&gt;&lt;bidID&gt;1708&lt;/bidID&gt;&lt;/getQuote&gt;'</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:32</date>
+  <millis>1455373172063</millis>
+  <sequence>6031</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML in: '&lt;?xml version="1.0"?&gt;&lt;getQuote&gt;&lt;lastAskPrice&gt;89.6802&lt;/lastAskPrice&gt;&lt;lastBidPrice&gt;60.0000&lt;/lastBidPrice&gt;&lt;hypotheticalQuantityWon&gt; &lt;/hypotheticalQuantityWon&gt;&lt;lastQuoteTime&gt;1455373142&lt;/lastQuoteTime&gt;&lt;nextQuoteTime&gt;1455373202&lt;/nextQuoteTime&gt;&lt;finalClearTime&gt;1455373200&lt;/finalClearTime&gt;&lt;nextClearTime&gt;-1&lt;/nextClearTime&gt;&lt;lastClearPrice&gt;0.0000&lt;/lastClearPrice&gt;&lt;lastClearTime&gt;0&lt;/lastClearTime&gt;&lt;auctionStatus&gt;1&lt;/auctionStatus&gt;&lt;commandStatus&gt;0&lt;/commandStatus&gt;&lt;/getQuote&gt;' responseTime: 7 avg: 20.0 count: 1647</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:32</date>
+  <millis>1455373172064</millis>
+  <sequence>6032</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>requesting quotes for auction 23 (Amusement 4)</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:32</date>
+  <millis>1455373172064</millis>
+  <sequence>6033</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML out: '&lt;getQuote&gt;&lt;auctionID&gt;108&lt;/auctionID&gt;&lt;bidID&gt;1709&lt;/bidID&gt;&lt;/getQuote&gt;'</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:32</date>
+  <millis>1455373172064</millis>
+  <sequence>6034</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML in: '&lt;?xml version="1.0"?&gt;&lt;getQuote&gt;&lt;lastAskPrice&gt;89.6800&lt;/lastAskPrice&gt;&lt;lastBidPrice&gt;60.0000&lt;/lastBidPrice&gt;&lt;hypotheticalQuantityWon&gt; &lt;/hypotheticalQuantityWon&gt;&lt;lastQuoteTime&gt;1455373142&lt;/lastQuoteTime&gt;&lt;nextQuoteTime&gt;1455373202&lt;/nextQuoteTime&gt;&lt;finalClearTime&gt;1455373200&lt;/finalClearTime&gt;&lt;nextClearTime&gt;-1&lt;/nextClearTime&gt;&lt;lastClearPrice&gt;0.0000&lt;/lastClearPrice&gt;&lt;lastClearTime&gt;0&lt;/lastClearTime&gt;&lt;auctionStatus&gt;1&lt;/auctionStatus&gt;&lt;commandStatus&gt;0&lt;/commandStatus&gt;&lt;/getQuote&gt;' responseTime: 8 avg: 20.0 count: 1648</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:32</date>
+  <millis>1455373172064</millis>
+  <sequence>6035</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>requesting quotes for auction 24 (Museum 1)</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:32</date>
+  <millis>1455373172064</millis>
+  <sequence>6036</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML out: '&lt;getQuote&gt;&lt;auctionID&gt;109&lt;/auctionID&gt;&lt;/getQuote&gt;'</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:32</date>
+  <millis>1455373172064</millis>
+  <sequence>6037</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML in: '&lt;?xml version="1.0"?&gt;&lt;getQuote&gt;&lt;lastAskPrice&gt;120.0000&lt;/lastAskPrice&gt;&lt;lastBidPrice&gt;60.0000&lt;/lastBidPrice&gt;&lt;lastQuoteTime&gt;1455372991&lt;/lastQuoteTime&gt;&lt;nextQuoteTime&gt;1455373051&lt;/nextQuoteTime&gt;&lt;finalClearTime&gt;1455373200&lt;/finalClearTime&gt;&lt;nextClearTime&gt;-1&lt;/nextClearTime&gt;&lt;lastClearPrice&gt;120.0000&lt;/lastClearPrice&gt;&lt;lastClearTime&gt;1455372991&lt;/lastClearTime&gt;&lt;auctionStatus&gt;1&lt;/auctionStatus&gt;&lt;commandStatus&gt;0&lt;/commandStatus&gt;&lt;/getQuote&gt;' responseTime: 8 avg: 20.0 count: 1649</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:32</date>
+  <millis>1455373172065</millis>
+  <sequence>6038</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>requesting quotes for auction 25 (Museum 2)</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:32</date>
+  <millis>1455373172065</millis>
+  <sequence>6039</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML out: '&lt;getQuote&gt;&lt;auctionID&gt;110&lt;/auctionID&gt;&lt;/getQuote&gt;'</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:32</date>
+  <millis>1455373172066</millis>
+  <sequence>6040</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML in: '&lt;?xml version="1.0"?&gt;&lt;getQuote&gt;&lt;lastAskPrice&gt;120.0000&lt;/lastAskPrice&gt;&lt;lastBidPrice&gt;60.0000&lt;/lastBidPrice&gt;&lt;lastQuoteTime&gt;1455372480&lt;/lastQuoteTime&gt;&lt;nextQuoteTime&gt;1455372540&lt;/nextQuoteTime&gt;&lt;finalClearTime&gt;1455373200&lt;/finalClearTime&gt;&lt;nextClearTime&gt;-1&lt;/nextClearTime&gt;&lt;lastClearPrice&gt;0.0000&lt;/lastClearPrice&gt;&lt;lastClearTime&gt;0&lt;/lastClearTime&gt;&lt;auctionStatus&gt;1&lt;/auctionStatus&gt;&lt;commandStatus&gt;0&lt;/commandStatus&gt;&lt;/getQuote&gt;' responseTime: 9 avg: 20.0 count: 1650</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:32</date>
+  <millis>1455373172067</millis>
+  <sequence>6041</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>requesting quotes for auction 26 (Museum 3)</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:32</date>
+  <millis>1455373172067</millis>
+  <sequence>6042</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML out: '&lt;getQuote&gt;&lt;auctionID&gt;111&lt;/auctionID&gt;&lt;/getQuote&gt;'</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:32</date>
+  <millis>1455373172067</millis>
+  <sequence>6043</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML in: '&lt;?xml version="1.0"?&gt;&lt;getQuote&gt;&lt;lastAskPrice&gt;120.0000&lt;/lastAskPrice&gt;&lt;lastBidPrice&gt;60.0000&lt;/lastBidPrice&gt;&lt;lastQuoteTime&gt;1455372991&lt;/lastQuoteTime&gt;&lt;nextQuoteTime&gt;1455373051&lt;/nextQuoteTime&gt;&lt;finalClearTime&gt;1455373200&lt;/finalClearTime&gt;&lt;nextClearTime&gt;-1&lt;/nextClearTime&gt;&lt;lastClearPrice&gt;120.0000&lt;/lastClearPrice&gt;&lt;lastClearTime&gt;1455372991&lt;/lastClearTime&gt;&lt;auctionStatus&gt;1&lt;/auctionStatus&gt;&lt;commandStatus&gt;0&lt;/commandStatus&gt;&lt;/getQuote&gt;' responseTime: 11 avg: 20.0 count: 1651</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:32</date>
+  <millis>1455373172068</millis>
+  <sequence>6044</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>requesting quotes for auction 27 (Museum 4)</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:32</date>
+  <millis>1455373172068</millis>
+  <sequence>6045</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML out: '&lt;getQuote&gt;&lt;auctionID&gt;112&lt;/auctionID&gt;&lt;/getQuote&gt;'</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:32</date>
+  <millis>1455373172068</millis>
+  <sequence>6046</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML in: '&lt;?xml version="1.0"?&gt;&lt;getQuote&gt;&lt;lastAskPrice&gt;120.0000&lt;/lastAskPrice&gt;&lt;lastBidPrice&gt;60.0000&lt;/lastBidPrice&gt;&lt;lastQuoteTime&gt;1455372480&lt;/lastQuoteTime&gt;&lt;nextQuoteTime&gt;1455372540&lt;/nextQuoteTime&gt;&lt;finalClearTime&gt;1455373200&lt;/finalClearTime&gt;&lt;nextClearTime&gt;-1&lt;/nextClearTime&gt;&lt;lastClearPrice&gt;0.0000&lt;/lastClearPrice&gt;&lt;lastClearTime&gt;0&lt;/lastClearTime&gt;&lt;auctionStatus&gt;1&lt;/auctionStatus&gt;&lt;commandStatus&gt;0&lt;/commandStatus&gt;&lt;/getQuote&gt;' responseTime: 12 avg: 20.0 count: 1652</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:32</date>
+  <millis>1455373172068</millis>
+  <sequence>6047</sequence>
+  <logger>se.sics.tac.aw.DummyAgent</logger>
+  <level>FINE</level>
+  <class>se.sics.tac.aw.Pascal</class>
+  <method>quoteUpdated</method>
+  <thread>21</thread>
+  <message>All quotes for entertainment has been updated</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:32</date>
+  <millis>1455373172069</millis>
+  <sequence>6048</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>requesting quotes for auction 0 (Inflight 1)</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:32</date>
+  <millis>1455373172069</millis>
+  <sequence>6049</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML out: '&lt;getQuote&gt;&lt;auctionID&gt;85&lt;/auctionID&gt;&lt;/getQuote&gt;'</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:32</date>
+  <millis>1455373172069</millis>
+  <sequence>6050</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML in: '&lt;?xml version="1.0"?&gt;&lt;getQuote&gt;&lt;lastAskPrice&gt;667.0000&lt;/lastAskPrice&gt;&lt;lastBidPrice&gt;-1.0000&lt;/lastBidPrice&gt;&lt;lastQuoteTime&gt;1455373150&lt;/lastQuoteTime&gt;&lt;nextQuoteTime&gt;1455373175&lt;/nextQuoteTime&gt;&lt;finalClearTime&gt;1455373200&lt;/finalClearTime&gt;&lt;nextClearTime&gt;-1&lt;/nextClearTime&gt;&lt;lastClearPrice&gt;430.0000&lt;/lastClearPrice&gt;&lt;lastClearTime&gt;1455372841&lt;/lastClearTime&gt;&lt;auctionStatus&gt;1&lt;/auctionStatus&gt;&lt;commandStatus&gt;0&lt;/commandStatus&gt;&lt;/getQuote&gt;' responseTime: 13 avg: 20.0 count: 1653</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:32</date>
+  <millis>1455373172069</millis>
+  <sequence>6051</sequence>
+  <logger>se.sics.tac.aw.DummyAgent</logger>
+  <level>WARNING</level>
+  <class>se.sics.tac.aw.Pascal</class>
+  <method>bidRejected</method>
+  <thread>21</thread>
+  <message>Bid Rejected: -1</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:32</date>
+  <millis>1455373172069</millis>
+  <sequence>6052</sequence>
+  <logger>se.sics.tac.aw.DummyAgent</logger>
+  <level>WARNING</level>
+  <class>se.sics.tac.aw.Pascal</class>
+  <method>bidRejected</method>
+  <thread>21</thread>
+  <message>      Reason: 20 (active bid changed)</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:32</date>
+  <millis>1455373172070</millis>
+  <sequence>6053</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>requesting quotes for auction 1 (Inflight 2)</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:32</date>
+  <millis>1455373172070</millis>
+  <sequence>6054</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML out: '&lt;getQuote&gt;&lt;auctionID&gt;86&lt;/auctionID&gt;&lt;/getQuote&gt;'</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:32</date>
+  <millis>1455373172070</millis>
+  <sequence>6055</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML in: '&lt;?xml version="1.0"?&gt;&lt;getQuote&gt;&lt;lastAskPrice&gt;285.0000&lt;/lastAskPrice&gt;&lt;lastBidPrice&gt;-1.0000&lt;/lastBidPrice&gt;&lt;lastQuoteTime&gt;1455373170&lt;/lastQuoteTime&gt;&lt;nextQuoteTime&gt;1455373195&lt;/nextQuoteTime&gt;&lt;finalClearTime&gt;1455373200&lt;/finalClearTime&gt;&lt;nextClearTime&gt;-1&lt;/nextClearTime&gt;&lt;lastClearPrice&gt;263.0000&lt;/lastClearPrice&gt;&lt;lastClearTime&gt;1455372480&lt;/lastClearTime&gt;&lt;auctionStatus&gt;1&lt;/auctionStatus&gt;&lt;commandStatus&gt;0&lt;/commandStatus&gt;&lt;/getQuote&gt;' responseTime: 14 avg: 20.0 count: 1654</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:32</date>
+  <millis>1455373172070</millis>
+  <sequence>6056</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>requesting quotes for auction 2 (Inflight 3)</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:32</date>
+  <millis>1455373172071</millis>
+  <sequence>6057</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML out: '&lt;getQuote&gt;&lt;auctionID&gt;87&lt;/auctionID&gt;&lt;/getQuote&gt;'</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:32</date>
+  <millis>1455373172071</millis>
+  <sequence>6058</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML in: '&lt;?xml version="1.0"?&gt;&lt;getQuote&gt;&lt;lastAskPrice&gt;800.0000&lt;/lastAskPrice&gt;&lt;lastBidPrice&gt;-1.0000&lt;/lastBidPrice&gt;&lt;lastQuoteTime&gt;1455373158&lt;/lastQuoteTime&gt;&lt;nextQuoteTime&gt;1455373182&lt;/nextQuoteTime&gt;&lt;finalClearTime&gt;1455373200&lt;/finalClearTime&gt;&lt;nextClearTime&gt;-1&lt;/nextClearTime&gt;&lt;lastClearPrice&gt;388.0000&lt;/lastClearPrice&gt;&lt;lastClearTime&gt;1455372841&lt;/lastClearTime&gt;&lt;auctionStatus&gt;1&lt;/auctionStatus&gt;&lt;commandStatus&gt;0&lt;/commandStatus&gt;&lt;/getQuote&gt;' responseTime: 14 avg: 20.0 count: 1655</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:32</date>
+  <millis>1455373172071</millis>
+  <sequence>6059</sequence>
+  <logger>se.sics.tac.aw.DummyAgent</logger>
+  <level>WARNING</level>
+  <class>se.sics.tac.aw.Pascal</class>
+  <method>bidRejected</method>
+  <thread>21</thread>
+  <message>Bid Rejected: -1</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:32</date>
+  <millis>1455373172071</millis>
+  <sequence>6060</sequence>
+  <logger>se.sics.tac.aw.DummyAgent</logger>
+  <level>WARNING</level>
+  <class>se.sics.tac.aw.Pascal</class>
+  <method>bidRejected</method>
+  <thread>21</thread>
+  <message>      Reason: 20 (active bid changed)</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:32</date>
+  <millis>1455373172071</millis>
+  <sequence>6061</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>requesting quotes for auction 3 (Inflight 4)</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:32</date>
+  <millis>1455373172071</millis>
+  <sequence>6062</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML out: '&lt;getQuote&gt;&lt;auctionID&gt;88&lt;/auctionID&gt;&lt;/getQuote&gt;'</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:32</date>
+  <millis>1455373172071</millis>
+  <sequence>6063</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML in: '&lt;?xml version="1.0"?&gt;&lt;getQuote&gt;&lt;lastAskPrice&gt;373.0000&lt;/lastAskPrice&gt;&lt;lastBidPrice&gt;-1.0000&lt;/lastBidPrice&gt;&lt;lastQuoteTime&gt;1455373153&lt;/lastQuoteTime&gt;&lt;nextQuoteTime&gt;1455373183&lt;/nextQuoteTime&gt;&lt;finalClearTime&gt;1455373200&lt;/finalClearTime&gt;&lt;nextClearTime&gt;-1&lt;/nextClearTime&gt;&lt;lastClearPrice&gt;330.0000&lt;/lastClearPrice&gt;&lt;lastClearTime&gt;1455372841&lt;/lastClearTime&gt;&lt;auctionStatus&gt;1&lt;/auctionStatus&gt;&lt;commandStatus&gt;0&lt;/commandStatus&gt;&lt;/getQuote&gt;' responseTime: 15 avg: 20.0 count: 1656</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:32</date>
+  <millis>1455373172072</millis>
+  <sequence>6064</sequence>
+  <logger>se.sics.tac.aw.DummyAgent</logger>
+  <level>WARNING</level>
+  <class>se.sics.tac.aw.Pascal</class>
+  <method>bidRejected</method>
+  <thread>21</thread>
+  <message>Bid Rejected: -1</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:32</date>
+  <millis>1455373172072</millis>
+  <sequence>6065</sequence>
+  <logger>se.sics.tac.aw.DummyAgent</logger>
+  <level>WARNING</level>
+  <class>se.sics.tac.aw.Pascal</class>
+  <method>bidRejected</method>
+  <thread>21</thread>
+  <message>      Reason: 20 (active bid changed)</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:32</date>
+  <millis>1455373172073</millis>
+  <sequence>6066</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>requesting quotes for auction 4 (Outflight 2)</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:32</date>
+  <millis>1455373172073</millis>
+  <sequence>6067</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML out: '&lt;getQuote&gt;&lt;auctionID&gt;89&lt;/auctionID&gt;&lt;/getQuote&gt;'</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:32</date>
+  <millis>1455373172073</millis>
+  <sequence>6068</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML in: '&lt;?xml version="1.0"?&gt;&lt;getQuote&gt;&lt;lastAskPrice&gt;339.0000&lt;/lastAskPrice&gt;&lt;lastBidPrice&gt;-1.0000&lt;/lastBidPrice&gt;&lt;lastQuoteTime&gt;1455373151&lt;/lastQuoteTime&gt;&lt;nextQuoteTime&gt;1455373178&lt;/nextQuoteTime&gt;&lt;finalClearTime&gt;1455373200&lt;/finalClearTime&gt;&lt;nextClearTime&gt;-1&lt;/nextClearTime&gt;&lt;lastClearPrice&gt;349.0000&lt;/lastClearPrice&gt;&lt;lastClearTime&gt;1455372841&lt;/lastClearTime&gt;&lt;auctionStatus&gt;1&lt;/auctionStatus&gt;&lt;commandStatus&gt;0&lt;/commandStatus&gt;&lt;/getQuote&gt;' responseTime: 17 avg: 20.0 count: 1657</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:32</date>
+  <millis>1455373172073</millis>
+  <sequence>6069</sequence>
+  <logger>se.sics.tac.aw.DummyAgent</logger>
+  <level>WARNING</level>
+  <class>se.sics.tac.aw.Pascal</class>
+  <method>bidRejected</method>
+  <thread>21</thread>
+  <message>Bid Rejected: -1</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:32</date>
+  <millis>1455373172073</millis>
+  <sequence>6070</sequence>
+  <logger>se.sics.tac.aw.DummyAgent</logger>
+  <level>WARNING</level>
+  <class>se.sics.tac.aw.Pascal</class>
+  <method>bidRejected</method>
+  <thread>21</thread>
+  <message>      Reason: 20 (active bid changed)</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:32</date>
+  <millis>1455373172073</millis>
+  <sequence>6071</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>requesting quotes for auction 5 (Outflight 3)</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:32</date>
+  <millis>1455373172074</millis>
+  <sequence>6072</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML out: '&lt;getQuote&gt;&lt;auctionID&gt;90&lt;/auctionID&gt;&lt;/getQuote&gt;'</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:32</date>
+  <millis>1455373172074</millis>
+  <sequence>6073</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML in: '&lt;?xml version="1.0"?&gt;&lt;getQuote&gt;&lt;lastAskPrice&gt;453.0000&lt;/lastAskPrice&gt;&lt;lastBidPrice&gt;-1.0000&lt;/lastBidPrice&gt;&lt;lastQuoteTime&gt;1455373166&lt;/lastQuoteTime&gt;&lt;nextQuoteTime&gt;1455373197&lt;/nextQuoteTime&gt;&lt;finalClearTime&gt;1455373200&lt;/finalClearTime&gt;&lt;nextClearTime&gt;-1&lt;/nextClearTime&gt;&lt;lastClearPrice&gt;374.0000&lt;/lastClearPrice&gt;&lt;lastClearTime&gt;1455372841&lt;/lastClearTime&gt;&lt;auctionStatus&gt;1&lt;/auctionStatus&gt;&lt;commandStatus&gt;0&lt;/commandStatus&gt;&lt;/getQuote&gt;' responseTime: 17 avg: 20.0 count: 1658</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:32</date>
+  <millis>1455373172074</millis>
+  <sequence>6074</sequence>
+  <logger>se.sics.tac.aw.DummyAgent</logger>
+  <level>WARNING</level>
+  <class>se.sics.tac.aw.Pascal</class>
+  <method>bidRejected</method>
+  <thread>21</thread>
+  <message>Bid Rejected: -1</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:32</date>
+  <millis>1455373172074</millis>
+  <sequence>6075</sequence>
+  <logger>se.sics.tac.aw.DummyAgent</logger>
+  <level>WARNING</level>
+  <class>se.sics.tac.aw.Pascal</class>
+  <method>bidRejected</method>
+  <thread>21</thread>
+  <message>      Reason: 20 (active bid changed)</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:32</date>
+  <millis>1455373172074</millis>
+  <sequence>6076</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>requesting quotes for auction 6 (Outflight 4)</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:32</date>
+  <millis>1455373172074</millis>
+  <sequence>6077</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML out: '&lt;getQuote&gt;&lt;auctionID&gt;91&lt;/auctionID&gt;&lt;/getQuote&gt;'</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:32</date>
+  <millis>1455373172075</millis>
+  <sequence>6078</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML in: '&lt;?xml version="1.0"?&gt;&lt;getQuote&gt;&lt;lastAskPrice&gt;411.0000&lt;/lastAskPrice&gt;&lt;lastBidPrice&gt;-1.0000&lt;/lastBidPrice&gt;&lt;lastQuoteTime&gt;1455373154&lt;/lastQuoteTime&gt;&lt;nextQuoteTime&gt;1455373180&lt;/nextQuoteTime&gt;&lt;finalClearTime&gt;1455373200&lt;/finalClearTime&gt;&lt;nextClearTime&gt;-1&lt;/nextClearTime&gt;&lt;lastClearPrice&gt;386.0000&lt;/lastClearPrice&gt;&lt;lastClearTime&gt;1455372841&lt;/lastClearTime&gt;&lt;auctionStatus&gt;1&lt;/auctionStatus&gt;&lt;commandStatus&gt;0&lt;/commandStatus&gt;&lt;/getQuote&gt;' responseTime: 18 avg: 20.0 count: 1659</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:32</date>
+  <millis>1455373172075</millis>
+  <sequence>6079</sequence>
+  <logger>se.sics.tac.aw.DummyAgent</logger>
+  <level>WARNING</level>
+  <class>se.sics.tac.aw.Pascal</class>
+  <method>bidRejected</method>
+  <thread>21</thread>
+  <message>Bid Rejected: -1</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:32</date>
+  <millis>1455373172075</millis>
+  <sequence>6080</sequence>
+  <logger>se.sics.tac.aw.DummyAgent</logger>
+  <level>WARNING</level>
+  <class>se.sics.tac.aw.Pascal</class>
+  <method>bidRejected</method>
+  <thread>21</thread>
+  <message>      Reason: 20 (active bid changed)</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:32</date>
+  <millis>1455373172075</millis>
+  <sequence>6081</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>requesting quotes for auction 7 (Outflight 5)</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:32</date>
+  <millis>1455373172075</millis>
+  <sequence>6082</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML out: '&lt;getQuote&gt;&lt;auctionID&gt;92&lt;/auctionID&gt;&lt;/getQuote&gt;'</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:32</date>
+  <millis>1455373172075</millis>
+  <sequence>6083</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML in: '&lt;?xml version="1.0"?&gt;&lt;getQuote&gt;&lt;lastAskPrice&gt;507.0000&lt;/lastAskPrice&gt;&lt;lastBidPrice&gt;-1.0000&lt;/lastBidPrice&gt;&lt;lastQuoteTime&gt;1455373155&lt;/lastQuoteTime&gt;&lt;nextQuoteTime&gt;1455373179&lt;/nextQuoteTime&gt;&lt;finalClearTime&gt;1455373200&lt;/finalClearTime&gt;&lt;nextClearTime&gt;-1&lt;/nextClearTime&gt;&lt;lastClearPrice&gt;364.0000&lt;/lastClearPrice&gt;&lt;lastClearTime&gt;1455372841&lt;/lastClearTime&gt;&lt;auctionStatus&gt;1&lt;/auctionStatus&gt;&lt;commandStatus&gt;0&lt;/commandStatus&gt;&lt;/getQuote&gt;' responseTime: 19 avg: 20.0 count: 1660</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:32</date>
+  <millis>1455373172075</millis>
+  <sequence>6084</sequence>
+  <logger>se.sics.tac.aw.DummyAgent</logger>
+  <level>WARNING</level>
+  <class>se.sics.tac.aw.Pascal</class>
+  <method>bidRejected</method>
+  <thread>21</thread>
+  <message>Bid Rejected: -1</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:32</date>
+  <millis>1455373172076</millis>
+  <sequence>6085</sequence>
+  <logger>se.sics.tac.aw.DummyAgent</logger>
+  <level>WARNING</level>
+  <class>se.sics.tac.aw.Pascal</class>
+  <method>bidRejected</method>
+  <thread>21</thread>
+  <message>      Reason: 20 (active bid changed)</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:32</date>
+  <millis>1455373172076</millis>
+  <sequence>6086</sequence>
+  <logger>se.sics.tac.aw.DummyAgent</logger>
+  <level>FINE</level>
+  <class>se.sics.tac.aw.Pascal</class>
+  <method>quoteUpdated</method>
+  <thread>21</thread>
+  <message>All quotes for flight has been updated</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:32</date>
+  <millis>1455373172076</millis>
+  <sequence>6087</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>submitting bid (submitBid) to auction 18 (Alligator 3)</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:32</date>
+  <millis>1455373172076</millis>
+  <sequence>6088</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML out: '&lt;submitBid&gt;&lt;auctionID&gt;103&lt;/auctionID&gt;&lt;bidString&gt;((-1 84.670166))&lt;/bidString&gt;&lt;expireTime&gt;0&lt;/expireTime&gt;&lt;expireMode&gt;0&lt;/expireMode&gt;&lt;divisible&gt;1&lt;/divisible&gt;&lt;/submitBid&gt;'</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:32</date>
+  <millis>1455373172076</millis>
+  <sequence>6089</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML in: '&lt;?xml version="1.0"?&gt;&lt;submitBid&gt;&lt;bidID&gt;1710&lt;/bidID&gt;&lt;bidHash&gt;((-1.0 84.6702))&lt;/bidHash&gt;&lt;rejectReason&gt;0&lt;/rejectReason&gt;&lt;commandStatus&gt;0&lt;/commandStatus&gt;&lt;/submitBid&gt;' responseTime: 17 avg: 20.0 count: 1661</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:32</date>
+  <millis>1455373172078</millis>
+  <sequence>6090</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>submitting bid (submitBid) to auction 19 (Alligator 4)</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:32</date>
+  <millis>1455373172078</millis>
+  <sequence>6091</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML out: '&lt;submitBid&gt;&lt;auctionID&gt;104&lt;/auctionID&gt;&lt;bidString&gt;((-1 84.67))&lt;/bidString&gt;&lt;expireTime&gt;0&lt;/expireTime&gt;&lt;expireMode&gt;0&lt;/expireMode&gt;&lt;divisible&gt;1&lt;/divisible&gt;&lt;/submitBid&gt;'</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:32</date>
+  <millis>1455373172078</millis>
+  <sequence>6092</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML in: '&lt;?xml version="1.0"?&gt;&lt;submitBid&gt;&lt;bidID&gt;1711&lt;/bidID&gt;&lt;bidHash&gt;((-1.0 84.6700))&lt;/bidHash&gt;&lt;rejectReason&gt;0&lt;/rejectReason&gt;&lt;commandStatus&gt;0&lt;/commandStatus&gt;&lt;/submitBid&gt;' responseTime: 18 avg: 20.0 count: 1662</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:32</date>
+  <millis>1455373172081</millis>
+  <sequence>6093</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>submitting bid (submitBid) to auction 22 (Amusement 3)</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:32</date>
+  <millis>1455373172081</millis>
+  <sequence>6094</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML out: '&lt;submitBid&gt;&lt;auctionID&gt;107&lt;/auctionID&gt;&lt;bidString&gt;((-2 84.6695))&lt;/bidString&gt;&lt;expireTime&gt;0&lt;/expireTime&gt;&lt;expireMode&gt;0&lt;/expireMode&gt;&lt;divisible&gt;1&lt;/divisible&gt;&lt;/submitBid&gt;'</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:32</date>
+  <millis>1455373172081</millis>
+  <sequence>6095</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML in: '&lt;?xml version="1.0"?&gt;&lt;submitBid&gt;&lt;bidID&gt;1712&lt;/bidID&gt;&lt;bidHash&gt;((-2.0 84.6695))&lt;/bidHash&gt;&lt;rejectReason&gt;0&lt;/rejectReason&gt;&lt;commandStatus&gt;0&lt;/commandStatus&gt;&lt;/submitBid&gt;' responseTime: 18 avg: 20.0 count: 1663</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:32</date>
+  <millis>1455373172083</millis>
+  <sequence>6096</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>submitting bid (submitBid) to auction 23 (Amusement 4)</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:32</date>
+  <millis>1455373172083</millis>
+  <sequence>6097</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML out: '&lt;submitBid&gt;&lt;auctionID&gt;108&lt;/auctionID&gt;&lt;bidString&gt;((-4 84.669334))&lt;/bidString&gt;&lt;expireTime&gt;0&lt;/expireTime&gt;&lt;expireMode&gt;0&lt;/expireMode&gt;&lt;divisible&gt;1&lt;/divisible&gt;&lt;/submitBid&gt;'</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:32</date>
+  <millis>1455373172083</millis>
+  <sequence>6098</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML in: '&lt;?xml version="1.0"?&gt;&lt;submitBid&gt;&lt;bidID&gt;1713&lt;/bidID&gt;&lt;bidHash&gt;((-4.0 84.6693))&lt;/bidHash&gt;&lt;rejectReason&gt;0&lt;/rejectReason&gt;&lt;commandStatus&gt;0&lt;/commandStatus&gt;&lt;/submitBid&gt;' responseTime: 19 avg: 20.0 count: 1664</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:32</date>
+  <millis>1455373172085</millis>
+  <sequence>6099</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML out: '&lt;bidInfo&gt;&lt;bidID&gt;1710&lt;/bidID&gt;&lt;/bidInfo&gt;'</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:32</date>
+  <millis>1455373172085</millis>
+  <sequence>6100</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML in: '&lt;?xml version="1.0"?&gt;&lt;bidInfo&gt;&lt;bidString&gt;((-1.0 84.6702))&lt;/bidString&gt;&lt;bidHash&gt;((-1.0 84.6702))&lt;/bidHash&gt;&lt;processingState&gt;2&lt;/processingState&gt;&lt;timeProcessed&gt;1455373172&lt;/timeProcessed&gt;&lt;timeClosed&gt;0&lt;/timeClosed&gt;&lt;withdrawState&gt;0&lt;/withdrawState&gt;&lt;timeWithdrawRequest&gt;0&lt;/timeWithdrawRequest&gt;&lt;timeWithdraw&gt;0&lt;/timeWithdraw&gt;&lt;rejectReason&gt;0&lt;/rejectReason&gt;&lt;commandStatus&gt;0&lt;/commandStatus&gt;&lt;/bidInfo&gt;' responseTime: 9 avg: 20.0 count: 1665</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:32</date>
+  <millis>1455373172085</millis>
+  <sequence>6101</sequence>
+  <logger>se.sics.tac.aw.DummyAgent</logger>
+  <level>FINE</level>
+  <class>se.sics.tac.aw.Pascal</class>
+  <method>bidUpdated</method>
+  <thread>21</thread>
+  <message>Bid Updated: id=1710 auction=18 state=valid</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:32</date>
+  <millis>1455373172086</millis>
+  <sequence>6102</sequence>
+  <logger>se.sics.tac.aw.DummyAgent</logger>
+  <level>FINE</level>
+  <class>se.sics.tac.aw.Pascal</class>
+  <method>bidUpdated</method>
+  <thread>21</thread>
+  <message>       Hash: ((-1.0 84.6702))</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:32</date>
+  <millis>1455373172087</millis>
+  <sequence>6103</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML out: '&lt;bidInfo&gt;&lt;bidID&gt;1711&lt;/bidID&gt;&lt;/bidInfo&gt;'</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:32</date>
+  <millis>1455373172087</millis>
+  <sequence>6104</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML in: '&lt;?xml version="1.0"?&gt;&lt;bidInfo&gt;&lt;bidString&gt;((-1.0 84.6700))&lt;/bidString&gt;&lt;bidHash&gt;((-1.0 84.6700))&lt;/bidHash&gt;&lt;processingState&gt;2&lt;/processingState&gt;&lt;timeProcessed&gt;1455373172&lt;/timeProcessed&gt;&lt;timeClosed&gt;0&lt;/timeClosed&gt;&lt;withdrawState&gt;0&lt;/withdrawState&gt;&lt;timeWithdrawRequest&gt;0&lt;/timeWithdrawRequest&gt;&lt;timeWithdraw&gt;0&lt;/timeWithdraw&gt;&lt;rejectReason&gt;0&lt;/rejectReason&gt;&lt;commandStatus&gt;0&lt;/commandStatus&gt;&lt;/bidInfo&gt;' responseTime: 8 avg: 20.0 count: 1666</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:32</date>
+  <millis>1455373172087</millis>
+  <sequence>6105</sequence>
+  <logger>se.sics.tac.aw.DummyAgent</logger>
+  <level>FINE</level>
+  <class>se.sics.tac.aw.Pascal</class>
+  <method>bidUpdated</method>
+  <thread>21</thread>
+  <message>Bid Updated: id=1711 auction=19 state=valid</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:32</date>
+  <millis>1455373172087</millis>
+  <sequence>6106</sequence>
+  <logger>se.sics.tac.aw.DummyAgent</logger>
+  <level>FINE</level>
+  <class>se.sics.tac.aw.Pascal</class>
+  <method>bidUpdated</method>
+  <thread>21</thread>
+  <message>       Hash: ((-1.0 84.6700))</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:32</date>
+  <millis>1455373172094</millis>
+  <sequence>6107</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML out: '&lt;bidInfo&gt;&lt;bidID&gt;1712&lt;/bidID&gt;&lt;/bidInfo&gt;'</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:32</date>
+  <millis>1455373172094</millis>
+  <sequence>6108</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML in: '&lt;?xml version="1.0"?&gt;&lt;bidInfo&gt;&lt;bidString&gt;((-2.0 84.6695))&lt;/bidString&gt;&lt;bidHash&gt;((-2.0 84.6695))&lt;/bidHash&gt;&lt;processingState&gt;2&lt;/processingState&gt;&lt;timeProcessed&gt;1455373172&lt;/timeProcessed&gt;&lt;timeClosed&gt;0&lt;/timeClosed&gt;&lt;withdrawState&gt;0&lt;/withdrawState&gt;&lt;timeWithdrawRequest&gt;0&lt;/timeWithdrawRequest&gt;&lt;timeWithdraw&gt;0&lt;/timeWithdraw&gt;&lt;rejectReason&gt;0&lt;/rejectReason&gt;&lt;commandStatus&gt;0&lt;/commandStatus&gt;&lt;/bidInfo&gt;' responseTime: 13 avg: 20.0 count: 1667</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:32</date>
+  <millis>1455373172094</millis>
+  <sequence>6109</sequence>
+  <logger>se.sics.tac.aw.DummyAgent</logger>
+  <level>FINE</level>
+  <class>se.sics.tac.aw.Pascal</class>
+  <method>bidUpdated</method>
+  <thread>21</thread>
+  <message>Bid Updated: id=1712 auction=22 state=valid</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:32</date>
+  <millis>1455373172094</millis>
+  <sequence>6110</sequence>
+  <logger>se.sics.tac.aw.DummyAgent</logger>
+  <level>FINE</level>
+  <class>se.sics.tac.aw.Pascal</class>
+  <method>bidUpdated</method>
+  <thread>21</thread>
+  <message>       Hash: ((-2.0 84.6695))</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:32</date>
+  <millis>1455373172095</millis>
+  <sequence>6111</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML out: '&lt;bidInfo&gt;&lt;bidID&gt;1713&lt;/bidID&gt;&lt;/bidInfo&gt;'</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:32</date>
+  <millis>1455373172095</millis>
+  <sequence>6112</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML in: '&lt;?xml version="1.0"?&gt;&lt;bidInfo&gt;&lt;bidString&gt;((-4.0 84.6693))&lt;/bidString&gt;&lt;bidHash&gt;((-4.0 84.6693))&lt;/bidHash&gt;&lt;processingState&gt;2&lt;/processingState&gt;&lt;timeProcessed&gt;1455373172&lt;/timeProcessed&gt;&lt;timeClosed&gt;0&lt;/timeClosed&gt;&lt;withdrawState&gt;0&lt;/withdrawState&gt;&lt;timeWithdrawRequest&gt;0&lt;/timeWithdrawRequest&gt;&lt;timeWithdraw&gt;0&lt;/timeWithdraw&gt;&lt;rejectReason&gt;0&lt;/rejectReason&gt;&lt;commandStatus&gt;0&lt;/commandStatus&gt;&lt;/bidInfo&gt;' responseTime: 11 avg: 20.0 count: 1668</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:32</date>
+  <millis>1455373172095</millis>
+  <sequence>6113</sequence>
+  <logger>se.sics.tac.aw.DummyAgent</logger>
+  <level>FINE</level>
+  <class>se.sics.tac.aw.Pascal</class>
+  <method>bidUpdated</method>
+  <thread>21</thread>
+  <message>Bid Updated: id=1713 auction=23 state=valid</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:32</date>
+  <millis>1455373172096</millis>
+  <sequence>6114</sequence>
+  <logger>se.sics.tac.aw.DummyAgent</logger>
+  <level>FINE</level>
+  <class>se.sics.tac.aw.Pascal</class>
+  <method>bidUpdated</method>
+  <thread>21</thread>
+  <message>       Hash: ((-4.0 84.6693))</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:41</date>
+  <millis>1455373181091</millis>
+  <sequence>6115</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>requesting quotes for auction 0 (Inflight 1)</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:41</date>
+  <millis>1455373181091</millis>
+  <sequence>6116</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML out: '&lt;getQuote&gt;&lt;auctionID&gt;85&lt;/auctionID&gt;&lt;/getQuote&gt;'</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:41</date>
+  <millis>1455373181091</millis>
+  <sequence>6117</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML in: '&lt;?xml version="1.0"?&gt;&lt;getQuote&gt;&lt;lastAskPrice&gt;663.0000&lt;/lastAskPrice&gt;&lt;lastBidPrice&gt;-1.0000&lt;/lastBidPrice&gt;&lt;lastQuoteTime&gt;1455373175&lt;/lastQuoteTime&gt;&lt;nextQuoteTime&gt;1455373203&lt;/nextQuoteTime&gt;&lt;finalClearTime&gt;1455373200&lt;/finalClearTime&gt;&lt;nextClearTime&gt;-1&lt;/nextClearTime&gt;&lt;lastClearPrice&gt;430.0000&lt;/lastClearPrice&gt;&lt;lastClearTime&gt;1455372841&lt;/lastClearTime&gt;&lt;auctionStatus&gt;1&lt;/auctionStatus&gt;&lt;commandStatus&gt;0&lt;/commandStatus&gt;&lt;/getQuote&gt;' responseTime: 1 avg: 20.0 count: 1669</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:41</date>
+  <millis>1455373181091</millis>
+  <sequence>6118</sequence>
+  <logger>se.sics.tac.aw.DummyAgent</logger>
+  <level>WARNING</level>
+  <class>se.sics.tac.aw.Pascal</class>
+  <method>bidRejected</method>
+  <thread>21</thread>
+  <message>Bid Rejected: -1</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:41</date>
+  <millis>1455373181091</millis>
+  <sequence>6119</sequence>
+  <logger>se.sics.tac.aw.DummyAgent</logger>
+  <level>WARNING</level>
+  <class>se.sics.tac.aw.Pascal</class>
+  <method>bidRejected</method>
+  <thread>21</thread>
+  <message>      Reason: 20 (active bid changed)</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:41</date>
+  <millis>1455373181091</millis>
+  <sequence>6120</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>requesting quotes for auction 1 (Inflight 2)</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:41</date>
+  <millis>1455373181091</millis>
+  <sequence>6121</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML out: '&lt;getQuote&gt;&lt;auctionID&gt;86&lt;/auctionID&gt;&lt;/getQuote&gt;'</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:41</date>
+  <millis>1455373181092</millis>
+  <sequence>6122</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML in: '&lt;?xml version="1.0"?&gt;&lt;getQuote&gt;&lt;lastAskPrice&gt;285.0000&lt;/lastAskPrice&gt;&lt;lastBidPrice&gt;-1.0000&lt;/lastBidPrice&gt;&lt;lastQuoteTime&gt;1455373170&lt;/lastQuoteTime&gt;&lt;nextQuoteTime&gt;1455373195&lt;/nextQuoteTime&gt;&lt;finalClearTime&gt;1455373200&lt;/finalClearTime&gt;&lt;nextClearTime&gt;-1&lt;/nextClearTime&gt;&lt;lastClearPrice&gt;263.0000&lt;/lastClearPrice&gt;&lt;lastClearTime&gt;1455372480&lt;/lastClearTime&gt;&lt;auctionStatus&gt;1&lt;/auctionStatus&gt;&lt;commandStatus&gt;0&lt;/commandStatus&gt;&lt;/getQuote&gt;' responseTime: 1 avg: 20.0 count: 1670</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:41</date>
+  <millis>1455373181093</millis>
+  <sequence>6123</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>requesting quotes for auction 2 (Inflight 3)</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:41</date>
+  <millis>1455373181093</millis>
+  <sequence>6124</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML out: '&lt;getQuote&gt;&lt;auctionID&gt;87&lt;/auctionID&gt;&lt;/getQuote&gt;'</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:41</date>
+  <millis>1455373181093</millis>
+  <sequence>6125</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML in: '&lt;?xml version="1.0"?&gt;&lt;getQuote&gt;&lt;lastAskPrice&gt;800.0000&lt;/lastAskPrice&gt;&lt;lastBidPrice&gt;-1.0000&lt;/lastBidPrice&gt;&lt;lastQuoteTime&gt;1455373158&lt;/lastQuoteTime&gt;&lt;nextQuoteTime&gt;1455373182&lt;/nextQuoteTime&gt;&lt;finalClearTime&gt;1455373200&lt;/finalClearTime&gt;&lt;nextClearTime&gt;-1&lt;/nextClearTime&gt;&lt;lastClearPrice&gt;388.0000&lt;/lastClearPrice&gt;&lt;lastClearTime&gt;1455372841&lt;/lastClearTime&gt;&lt;auctionStatus&gt;1&lt;/auctionStatus&gt;&lt;commandStatus&gt;0&lt;/commandStatus&gt;&lt;/getQuote&gt;' responseTime: 3 avg: 20.0 count: 1671</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:41</date>
+  <millis>1455373181094</millis>
+  <sequence>6126</sequence>
+  <logger>se.sics.tac.aw.DummyAgent</logger>
+  <level>WARNING</level>
+  <class>se.sics.tac.aw.Pascal</class>
+  <method>bidRejected</method>
+  <thread>21</thread>
+  <message>Bid Rejected: -1</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:41</date>
+  <millis>1455373181094</millis>
+  <sequence>6127</sequence>
+  <logger>se.sics.tac.aw.DummyAgent</logger>
+  <level>WARNING</level>
+  <class>se.sics.tac.aw.Pascal</class>
+  <method>bidRejected</method>
+  <thread>21</thread>
+  <message>      Reason: 20 (active bid changed)</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:41</date>
+  <millis>1455373181094</millis>
+  <sequence>6128</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>requesting quotes for auction 3 (Inflight 4)</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:41</date>
+  <millis>1455373181094</millis>
+  <sequence>6129</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML out: '&lt;getQuote&gt;&lt;auctionID&gt;88&lt;/auctionID&gt;&lt;/getQuote&gt;'</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:41</date>
+  <millis>1455373181094</millis>
+  <sequence>6130</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML in: '&lt;?xml version="1.0"?&gt;&lt;getQuote&gt;&lt;lastAskPrice&gt;373.0000&lt;/lastAskPrice&gt;&lt;lastBidPrice&gt;-1.0000&lt;/lastBidPrice&gt;&lt;lastQuoteTime&gt;1455373153&lt;/lastQuoteTime&gt;&lt;nextQuoteTime&gt;1455373183&lt;/nextQuoteTime&gt;&lt;finalClearTime&gt;1455373200&lt;/finalClearTime&gt;&lt;nextClearTime&gt;-1&lt;/nextClearTime&gt;&lt;lastClearPrice&gt;330.0000&lt;/lastClearPrice&gt;&lt;lastClearTime&gt;1455372841&lt;/lastClearTime&gt;&lt;auctionStatus&gt;1&lt;/auctionStatus&gt;&lt;commandStatus&gt;0&lt;/commandStatus&gt;&lt;/getQuote&gt;' responseTime: 4 avg: 20.0 count: 1672</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:41</date>
+  <millis>1455373181094</millis>
+  <sequence>6131</sequence>
+  <logger>se.sics.tac.aw.DummyAgent</logger>
+  <level>WARNING</level>
+  <class>se.sics.tac.aw.Pascal</class>
+  <method>bidRejected</method>
+  <thread>21</thread>
+  <message>Bid Rejected: -1</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:41</date>
+  <millis>1455373181094</millis>
+  <sequence>6132</sequence>
+  <logger>se.sics.tac.aw.DummyAgent</logger>
+  <level>WARNING</level>
+  <class>se.sics.tac.aw.Pascal</class>
+  <method>bidRejected</method>
+  <thread>21</thread>
+  <message>      Reason: 20 (active bid changed)</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:41</date>
+  <millis>1455373181095</millis>
+  <sequence>6133</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>requesting quotes for auction 4 (Outflight 2)</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:41</date>
+  <millis>1455373181095</millis>
+  <sequence>6134</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML out: '&lt;getQuote&gt;&lt;auctionID&gt;89&lt;/auctionID&gt;&lt;/getQuote&gt;'</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:41</date>
+  <millis>1455373181095</millis>
+  <sequence>6135</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML in: '&lt;?xml version="1.0"?&gt;&lt;getQuote&gt;&lt;lastAskPrice&gt;348.0000&lt;/lastAskPrice&gt;&lt;lastBidPrice&gt;-1.0000&lt;/lastBidPrice&gt;&lt;lastQuoteTime&gt;1455373178&lt;/lastQuoteTime&gt;&lt;nextQuoteTime&gt;1455373202&lt;/nextQuoteTime&gt;&lt;finalClearTime&gt;1455373200&lt;/finalClearTime&gt;&lt;nextClearTime&gt;-1&lt;/nextClearTime&gt;&lt;lastClearPrice&gt;349.0000&lt;/lastClearPrice&gt;&lt;lastClearTime&gt;1455372841&lt;/lastClearTime&gt;&lt;auctionStatus&gt;1&lt;/auctionStatus&gt;&lt;commandStatus&gt;0&lt;/commandStatus&gt;&lt;/getQuote&gt;' responseTime: 5 avg: 20.0 count: 1673</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:41</date>
+  <millis>1455373181095</millis>
+  <sequence>6136</sequence>
+  <logger>se.sics.tac.aw.DummyAgent</logger>
+  <level>WARNING</level>
+  <class>se.sics.tac.aw.Pascal</class>
+  <method>bidRejected</method>
+  <thread>21</thread>
+  <message>Bid Rejected: -1</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:41</date>
+  <millis>1455373181095</millis>
+  <sequence>6137</sequence>
+  <logger>se.sics.tac.aw.DummyAgent</logger>
+  <level>WARNING</level>
+  <class>se.sics.tac.aw.Pascal</class>
+  <method>bidRejected</method>
+  <thread>21</thread>
+  <message>      Reason: 20 (active bid changed)</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:41</date>
+  <millis>1455373181096</millis>
+  <sequence>6138</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>requesting quotes for auction 5 (Outflight 3)</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:41</date>
+  <millis>1455373181096</millis>
+  <sequence>6139</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML out: '&lt;getQuote&gt;&lt;auctionID&gt;90&lt;/auctionID&gt;&lt;/getQuote&gt;'</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:41</date>
+  <millis>1455373181096</millis>
+  <sequence>6140</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML in: '&lt;?xml version="1.0"?&gt;&lt;getQuote&gt;&lt;lastAskPrice&gt;453.0000&lt;/lastAskPrice&gt;&lt;lastBidPrice&gt;-1.0000&lt;/lastBidPrice&gt;&lt;lastQuoteTime&gt;1455373166&lt;/lastQuoteTime&gt;&lt;nextQuoteTime&gt;1455373197&lt;/nextQuoteTime&gt;&lt;finalClearTime&gt;1455373200&lt;/finalClearTime&gt;&lt;nextClearTime&gt;-1&lt;/nextClearTime&gt;&lt;lastClearPrice&gt;374.0000&lt;/lastClearPrice&gt;&lt;lastClearTime&gt;1455372841&lt;/lastClearTime&gt;&lt;auctionStatus&gt;1&lt;/auctionStatus&gt;&lt;commandStatus&gt;0&lt;/commandStatus&gt;&lt;/getQuote&gt;' responseTime: 6 avg: 20.0 count: 1674</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:41</date>
+  <millis>1455373181096</millis>
+  <sequence>6141</sequence>
+  <logger>se.sics.tac.aw.DummyAgent</logger>
+  <level>WARNING</level>
+  <class>se.sics.tac.aw.Pascal</class>
+  <method>bidRejected</method>
+  <thread>21</thread>
+  <message>Bid Rejected: -1</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:41</date>
+  <millis>1455373181096</millis>
+  <sequence>6142</sequence>
+  <logger>se.sics.tac.aw.DummyAgent</logger>
+  <level>WARNING</level>
+  <class>se.sics.tac.aw.Pascal</class>
+  <method>bidRejected</method>
+  <thread>21</thread>
+  <message>      Reason: 20 (active bid changed)</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:41</date>
+  <millis>1455373181097</millis>
+  <sequence>6143</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>requesting quotes for auction 6 (Outflight 4)</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:41</date>
+  <millis>1455373181097</millis>
+  <sequence>6144</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML out: '&lt;getQuote&gt;&lt;auctionID&gt;91&lt;/auctionID&gt;&lt;/getQuote&gt;'</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:41</date>
+  <millis>1455373181097</millis>
+  <sequence>6145</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML in: '&lt;?xml version="1.0"?&gt;&lt;getQuote&gt;&lt;lastAskPrice&gt;412.0000&lt;/lastAskPrice&gt;&lt;lastBidPrice&gt;-1.0000&lt;/lastBidPrice&gt;&lt;lastQuoteTime&gt;1455373180&lt;/lastQuoteTime&gt;&lt;nextQuoteTime&gt;1455373209&lt;/nextQuoteTime&gt;&lt;finalClearTime&gt;1455373200&lt;/finalClearTime&gt;&lt;nextClearTime&gt;-1&lt;/nextClearTime&gt;&lt;lastClearPrice&gt;386.0000&lt;/lastClearPrice&gt;&lt;lastClearTime&gt;1455372841&lt;/lastClearTime&gt;&lt;auctionStatus&gt;1&lt;/auctionStatus&gt;&lt;commandStatus&gt;0&lt;/commandStatus&gt;&lt;/getQuote&gt;' responseTime: 7 avg: 20.0 count: 1675</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:41</date>
+  <millis>1455373181097</millis>
+  <sequence>6146</sequence>
+  <logger>se.sics.tac.aw.DummyAgent</logger>
+  <level>WARNING</level>
+  <class>se.sics.tac.aw.Pascal</class>
+  <method>bidRejected</method>
+  <thread>21</thread>
+  <message>Bid Rejected: -1</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:41</date>
+  <millis>1455373181097</millis>
+  <sequence>6147</sequence>
+  <logger>se.sics.tac.aw.DummyAgent</logger>
+  <level>WARNING</level>
+  <class>se.sics.tac.aw.Pascal</class>
+  <method>bidRejected</method>
+  <thread>21</thread>
+  <message>      Reason: 20 (active bid changed)</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:41</date>
+  <millis>1455373181098</millis>
+  <sequence>6148</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>requesting quotes for auction 7 (Outflight 5)</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:41</date>
+  <millis>1455373181098</millis>
+  <sequence>6149</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML out: '&lt;getQuote&gt;&lt;auctionID&gt;92&lt;/auctionID&gt;&lt;/getQuote&gt;'</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:41</date>
+  <millis>1455373181098</millis>
+  <sequence>6150</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML in: '&lt;?xml version="1.0"?&gt;&lt;getQuote&gt;&lt;lastAskPrice&gt;541.0000&lt;/lastAskPrice&gt;&lt;lastBidPrice&gt;-1.0000&lt;/lastBidPrice&gt;&lt;lastQuoteTime&gt;1455373179&lt;/lastQuoteTime&gt;&lt;nextQuoteTime&gt;1455373207&lt;/nextQuoteTime&gt;&lt;finalClearTime&gt;1455373200&lt;/finalClearTime&gt;&lt;nextClearTime&gt;-1&lt;/nextClearTime&gt;&lt;lastClearPrice&gt;364.0000&lt;/lastClearPrice&gt;&lt;lastClearTime&gt;1455372841&lt;/lastClearTime&gt;&lt;auctionStatus&gt;1&lt;/auctionStatus&gt;&lt;commandStatus&gt;0&lt;/commandStatus&gt;&lt;/getQuote&gt;' responseTime: 8 avg: 20.0 count: 1676</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:41</date>
+  <millis>1455373181098</millis>
+  <sequence>6151</sequence>
+  <logger>se.sics.tac.aw.DummyAgent</logger>
+  <level>WARNING</level>
+  <class>se.sics.tac.aw.Pascal</class>
+  <method>bidRejected</method>
+  <thread>21</thread>
+  <message>Bid Rejected: -1</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:41</date>
+  <millis>1455373181098</millis>
+  <sequence>6152</sequence>
+  <logger>se.sics.tac.aw.DummyAgent</logger>
+  <level>WARNING</level>
+  <class>se.sics.tac.aw.Pascal</class>
+  <method>bidRejected</method>
+  <thread>21</thread>
+  <message>      Reason: 20 (active bid changed)</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:41</date>
+  <millis>1455373181098</millis>
+  <sequence>6153</sequence>
+  <logger>se.sics.tac.aw.DummyAgent</logger>
+  <level>FINE</level>
+  <class>se.sics.tac.aw.Pascal</class>
+  <method>quoteUpdated</method>
+  <thread>21</thread>
+  <message>All quotes for flight has been updated</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:46</date>
+  <millis>1455373186186</millis>
+  <sequence>6154</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML out: '&lt;bidInfo&gt;&lt;bidID&gt;1710&lt;/bidID&gt;&lt;/bidInfo&gt;'</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:46</date>
+  <millis>1455373186186</millis>
+  <sequence>6155</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML in: '&lt;?xml version="1.0"?&gt;&lt;bidInfo&gt;&lt;bidString&gt;((-1.0 84.6702))&lt;/bidString&gt;&lt;bidHash&gt;((-1.0 84.6702))&lt;/bidHash&gt;&lt;processingState&gt;2&lt;/processingState&gt;&lt;timeProcessed&gt;1455373172&lt;/timeProcessed&gt;&lt;timeClosed&gt;0&lt;/timeClosed&gt;&lt;withdrawState&gt;0&lt;/withdrawState&gt;&lt;timeWithdrawRequest&gt;0&lt;/timeWithdrawRequest&gt;&lt;timeWithdraw&gt;0&lt;/timeWithdraw&gt;&lt;rejectReason&gt;0&lt;/rejectReason&gt;&lt;commandStatus&gt;0&lt;/commandStatus&gt;&lt;/bidInfo&gt;' responseTime: 0 avg: 20.0 count: 1677</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:46</date>
+  <millis>1455373186186</millis>
+  <sequence>6156</sequence>
+  <logger>se.sics.tac.aw.DummyAgent</logger>
+  <level>FINE</level>
+  <class>se.sics.tac.aw.Pascal</class>
+  <method>bidUpdated</method>
+  <thread>21</thread>
+  <message>Bid Updated: id=1710 auction=18 state=valid</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:46</date>
+  <millis>1455373186186</millis>
+  <sequence>6157</sequence>
+  <logger>se.sics.tac.aw.DummyAgent</logger>
+  <level>FINE</level>
+  <class>se.sics.tac.aw.Pascal</class>
+  <method>bidUpdated</method>
+  <thread>21</thread>
+  <message>       Hash: ((-1.0 84.6702))</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:46</date>
+  <millis>1455373186188</millis>
+  <sequence>6158</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML out: '&lt;bidInfo&gt;&lt;bidID&gt;1711&lt;/bidID&gt;&lt;/bidInfo&gt;'</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:46</date>
+  <millis>1455373186188</millis>
+  <sequence>6159</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML in: '&lt;?xml version="1.0"?&gt;&lt;bidInfo&gt;&lt;bidString&gt;((-1.0 84.6700))&lt;/bidString&gt;&lt;bidHash&gt;((-1.0 84.6700))&lt;/bidHash&gt;&lt;processingState&gt;2&lt;/processingState&gt;&lt;timeProcessed&gt;1455373172&lt;/timeProcessed&gt;&lt;timeClosed&gt;0&lt;/timeClosed&gt;&lt;withdrawState&gt;0&lt;/withdrawState&gt;&lt;timeWithdrawRequest&gt;0&lt;/timeWithdrawRequest&gt;&lt;timeWithdraw&gt;0&lt;/timeWithdraw&gt;&lt;rejectReason&gt;0&lt;/rejectReason&gt;&lt;commandStatus&gt;0&lt;/commandStatus&gt;&lt;/bidInfo&gt;' responseTime: 2 avg: 20.0 count: 1678</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:46</date>
+  <millis>1455373186188</millis>
+  <sequence>6160</sequence>
+  <logger>se.sics.tac.aw.DummyAgent</logger>
+  <level>FINE</level>
+  <class>se.sics.tac.aw.Pascal</class>
+  <method>bidUpdated</method>
+  <thread>21</thread>
+  <message>Bid Updated: id=1711 auction=19 state=valid</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:46</date>
+  <millis>1455373186188</millis>
+  <sequence>6161</sequence>
+  <logger>se.sics.tac.aw.DummyAgent</logger>
+  <level>FINE</level>
+  <class>se.sics.tac.aw.Pascal</class>
+  <method>bidUpdated</method>
+  <thread>21</thread>
+  <message>       Hash: ((-1.0 84.6700))</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:46</date>
+  <millis>1455373186189</millis>
+  <sequence>6162</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML out: '&lt;bidInfo&gt;&lt;bidID&gt;1712&lt;/bidID&gt;&lt;/bidInfo&gt;'</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:46</date>
+  <millis>1455373186189</millis>
+  <sequence>6163</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML in: '&lt;?xml version="1.0"?&gt;&lt;bidInfo&gt;&lt;bidString&gt;((-2.0 84.6695))&lt;/bidString&gt;&lt;bidHash&gt;((-2.0 84.6695))&lt;/bidHash&gt;&lt;processingState&gt;2&lt;/processingState&gt;&lt;timeProcessed&gt;1455373172&lt;/timeProcessed&gt;&lt;timeClosed&gt;0&lt;/timeClosed&gt;&lt;withdrawState&gt;0&lt;/withdrawState&gt;&lt;timeWithdrawRequest&gt;0&lt;/timeWithdrawRequest&gt;&lt;timeWithdraw&gt;0&lt;/timeWithdraw&gt;&lt;rejectReason&gt;0&lt;/rejectReason&gt;&lt;commandStatus&gt;0&lt;/commandStatus&gt;&lt;/bidInfo&gt;' responseTime: 3 avg: 20.0 count: 1679</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:46</date>
+  <millis>1455373186189</millis>
+  <sequence>6164</sequence>
+  <logger>se.sics.tac.aw.DummyAgent</logger>
+  <level>FINE</level>
+  <class>se.sics.tac.aw.Pascal</class>
+  <method>bidUpdated</method>
+  <thread>21</thread>
+  <message>Bid Updated: id=1712 auction=22 state=valid</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:46</date>
+  <millis>1455373186189</millis>
+  <sequence>6165</sequence>
+  <logger>se.sics.tac.aw.DummyAgent</logger>
+  <level>FINE</level>
+  <class>se.sics.tac.aw.Pascal</class>
+  <method>bidUpdated</method>
+  <thread>21</thread>
+  <message>       Hash: ((-2.0 84.6695))</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:46</date>
+  <millis>1455373186190</millis>
+  <sequence>6166</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML out: '&lt;bidInfo&gt;&lt;bidID&gt;1713&lt;/bidID&gt;&lt;/bidInfo&gt;'</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:46</date>
+  <millis>1455373186190</millis>
+  <sequence>6167</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML in: '&lt;?xml version="1.0"?&gt;&lt;bidInfo&gt;&lt;bidString&gt;((-4.0 84.6693))&lt;/bidString&gt;&lt;bidHash&gt;((-4.0 84.6693))&lt;/bidHash&gt;&lt;processingState&gt;2&lt;/processingState&gt;&lt;timeProcessed&gt;1455373172&lt;/timeProcessed&gt;&lt;timeClosed&gt;0&lt;/timeClosed&gt;&lt;withdrawState&gt;0&lt;/withdrawState&gt;&lt;timeWithdrawRequest&gt;0&lt;/timeWithdrawRequest&gt;&lt;timeWithdraw&gt;0&lt;/timeWithdraw&gt;&lt;rejectReason&gt;0&lt;/rejectReason&gt;&lt;commandStatus&gt;0&lt;/commandStatus&gt;&lt;/bidInfo&gt;' responseTime: 4 avg: 20.0 count: 1680</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:46</date>
+  <millis>1455373186190</millis>
+  <sequence>6168</sequence>
+  <logger>se.sics.tac.aw.DummyAgent</logger>
+  <level>FINE</level>
+  <class>se.sics.tac.aw.Pascal</class>
+  <method>bidUpdated</method>
+  <thread>21</thread>
+  <message>Bid Updated: id=1713 auction=23 state=valid</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:46</date>
+  <millis>1455373186190</millis>
+  <sequence>6169</sequence>
+  <logger>se.sics.tac.aw.DummyAgent</logger>
+  <level>FINE</level>
+  <class>se.sics.tac.aw.Pascal</class>
+  <method>bidUpdated</method>
+  <thread>21</thread>
+  <message>       Hash: ((-4.0 84.6693))</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:46</date>
+  <millis>1455373186191</millis>
+  <sequence>6170</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML out: '&lt;transIDs&gt;&lt;earliestTransID&gt;698&lt;/earliestTransID&gt;&lt;/transIDs&gt;'</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:46</date>
+  <millis>1455373186191</millis>
+  <sequence>6171</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML in: '&lt;?xml version="1.0"?&gt;&lt;transIDs&gt;&lt;ids&gt;&lt;list&gt;&lt;/list&gt;&lt;/ids&gt;&lt;more&gt;0&lt;/more&gt;&lt;commandStatus&gt;0&lt;/commandStatus&gt;&lt;/transIDs&gt;' responseTime: 5 avg: 20.0 count: 1681</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:51</date>
+  <millis>1455373191190</millis>
+  <sequence>6172</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>requesting quotes for auction 0 (Inflight 1)</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:51</date>
+  <millis>1455373191190</millis>
+  <sequence>6173</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML out: '&lt;getQuote&gt;&lt;auctionID&gt;85&lt;/auctionID&gt;&lt;/getQuote&gt;'</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:51</date>
+  <millis>1455373191190</millis>
+  <sequence>6174</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML in: '&lt;?xml version="1.0"?&gt;&lt;getQuote&gt;&lt;lastAskPrice&gt;663.0000&lt;/lastAskPrice&gt;&lt;lastBidPrice&gt;-1.0000&lt;/lastBidPrice&gt;&lt;lastQuoteTime&gt;1455373175&lt;/lastQuoteTime&gt;&lt;nextQuoteTime&gt;1455373203&lt;/nextQuoteTime&gt;&lt;finalClearTime&gt;1455373200&lt;/finalClearTime&gt;&lt;nextClearTime&gt;-1&lt;/nextClearTime&gt;&lt;lastClearPrice&gt;430.0000&lt;/lastClearPrice&gt;&lt;lastClearTime&gt;1455372841&lt;/lastClearTime&gt;&lt;auctionStatus&gt;1&lt;/auctionStatus&gt;&lt;commandStatus&gt;0&lt;/commandStatus&gt;&lt;/getQuote&gt;' responseTime: 1 avg: 20.0 count: 1682</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:51</date>
+  <millis>1455373191190</millis>
+  <sequence>6175</sequence>
+  <logger>se.sics.tac.aw.DummyAgent</logger>
+  <level>WARNING</level>
+  <class>se.sics.tac.aw.Pascal</class>
+  <method>bidRejected</method>
+  <thread>21</thread>
+  <message>Bid Rejected: -1</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:51</date>
+  <millis>1455373191190</millis>
+  <sequence>6176</sequence>
+  <logger>se.sics.tac.aw.DummyAgent</logger>
+  <level>WARNING</level>
+  <class>se.sics.tac.aw.Pascal</class>
+  <method>bidRejected</method>
+  <thread>21</thread>
+  <message>      Reason: 20 (active bid changed)</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:51</date>
+  <millis>1455373191191</millis>
+  <sequence>6177</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>requesting quotes for auction 1 (Inflight 2)</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:51</date>
+  <millis>1455373191191</millis>
+  <sequence>6178</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML out: '&lt;getQuote&gt;&lt;auctionID&gt;86&lt;/auctionID&gt;&lt;/getQuote&gt;'</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:51</date>
+  <millis>1455373191191</millis>
+  <sequence>6179</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML in: '&lt;?xml version="1.0"?&gt;&lt;getQuote&gt;&lt;lastAskPrice&gt;285.0000&lt;/lastAskPrice&gt;&lt;lastBidPrice&gt;-1.0000&lt;/lastBidPrice&gt;&lt;lastQuoteTime&gt;1455373170&lt;/lastQuoteTime&gt;&lt;nextQuoteTime&gt;1455373195&lt;/nextQuoteTime&gt;&lt;finalClearTime&gt;1455373200&lt;/finalClearTime&gt;&lt;nextClearTime&gt;-1&lt;/nextClearTime&gt;&lt;lastClearPrice&gt;263.0000&lt;/lastClearPrice&gt;&lt;lastClearTime&gt;1455372480&lt;/lastClearTime&gt;&lt;auctionStatus&gt;1&lt;/auctionStatus&gt;&lt;commandStatus&gt;0&lt;/commandStatus&gt;&lt;/getQuote&gt;' responseTime: 2 avg: 20.0 count: 1683</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:51</date>
+  <millis>1455373191192</millis>
+  <sequence>6180</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>requesting quotes for auction 2 (Inflight 3)</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:51</date>
+  <millis>1455373191192</millis>
+  <sequence>6181</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML out: '&lt;getQuote&gt;&lt;auctionID&gt;87&lt;/auctionID&gt;&lt;/getQuote&gt;'</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:51</date>
+  <millis>1455373191192</millis>
+  <sequence>6182</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML in: '&lt;?xml version="1.0"?&gt;&lt;getQuote&gt;&lt;lastAskPrice&gt;800.0000&lt;/lastAskPrice&gt;&lt;lastBidPrice&gt;-1.0000&lt;/lastBidPrice&gt;&lt;lastQuoteTime&gt;1455373182&lt;/lastQuoteTime&gt;&lt;nextQuoteTime&gt;1455373208&lt;/nextQuoteTime&gt;&lt;finalClearTime&gt;1455373200&lt;/finalClearTime&gt;&lt;nextClearTime&gt;-1&lt;/nextClearTime&gt;&lt;lastClearPrice&gt;388.0000&lt;/lastClearPrice&gt;&lt;lastClearTime&gt;1455372841&lt;/lastClearTime&gt;&lt;auctionStatus&gt;1&lt;/auctionStatus&gt;&lt;commandStatus&gt;0&lt;/commandStatus&gt;&lt;/getQuote&gt;' responseTime: 3 avg: 20.0 count: 1684</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:51</date>
+  <millis>1455373191192</millis>
+  <sequence>6183</sequence>
+  <logger>se.sics.tac.aw.DummyAgent</logger>
+  <level>WARNING</level>
+  <class>se.sics.tac.aw.Pascal</class>
+  <method>bidRejected</method>
+  <thread>21</thread>
+  <message>Bid Rejected: -1</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:51</date>
+  <millis>1455373191192</millis>
+  <sequence>6184</sequence>
+  <logger>se.sics.tac.aw.DummyAgent</logger>
+  <level>WARNING</level>
+  <class>se.sics.tac.aw.Pascal</class>
+  <method>bidRejected</method>
+  <thread>21</thread>
+  <message>      Reason: 20 (active bid changed)</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:51</date>
+  <millis>1455373191193</millis>
+  <sequence>6185</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>requesting quotes for auction 3 (Inflight 4)</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:51</date>
+  <millis>1455373191193</millis>
+  <sequence>6186</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML out: '&lt;getQuote&gt;&lt;auctionID&gt;88&lt;/auctionID&gt;&lt;/getQuote&gt;'</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:51</date>
+  <millis>1455373191193</millis>
+  <sequence>6187</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML in: '&lt;?xml version="1.0"?&gt;&lt;getQuote&gt;&lt;lastAskPrice&gt;383.0000&lt;/lastAskPrice&gt;&lt;lastBidPrice&gt;-1.0000&lt;/lastBidPrice&gt;&lt;lastQuoteTime&gt;1455373183&lt;/lastQuoteTime&gt;&lt;nextQuoteTime&gt;1455373208&lt;/nextQuoteTime&gt;&lt;finalClearTime&gt;1455373200&lt;/finalClearTime&gt;&lt;nextClearTime&gt;-1&lt;/nextClearTime&gt;&lt;lastClearPrice&gt;330.0000&lt;/lastClearPrice&gt;&lt;lastClearTime&gt;1455372841&lt;/lastClearTime&gt;&lt;auctionStatus&gt;1&lt;/auctionStatus&gt;&lt;commandStatus&gt;0&lt;/commandStatus&gt;&lt;/getQuote&gt;' responseTime: 4 avg: 20.0 count: 1685</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:51</date>
+  <millis>1455373191193</millis>
+  <sequence>6188</sequence>
+  <logger>se.sics.tac.aw.DummyAgent</logger>
+  <level>WARNING</level>
+  <class>se.sics.tac.aw.Pascal</class>
+  <method>bidRejected</method>
+  <thread>21</thread>
+  <message>Bid Rejected: -1</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:51</date>
+  <millis>1455373191193</millis>
+  <sequence>6189</sequence>
+  <logger>se.sics.tac.aw.DummyAgent</logger>
+  <level>WARNING</level>
+  <class>se.sics.tac.aw.Pascal</class>
+  <method>bidRejected</method>
+  <thread>21</thread>
+  <message>      Reason: 20 (active bid changed)</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:51</date>
+  <millis>1455373191194</millis>
+  <sequence>6190</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>requesting quotes for auction 4 (Outflight 2)</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:51</date>
+  <millis>1455373191194</millis>
+  <sequence>6191</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML out: '&lt;getQuote&gt;&lt;auctionID&gt;89&lt;/auctionID&gt;&lt;/getQuote&gt;'</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:51</date>
+  <millis>1455373191194</millis>
+  <sequence>6192</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML in: '&lt;?xml version="1.0"?&gt;&lt;getQuote&gt;&lt;lastAskPrice&gt;348.0000&lt;/lastAskPrice&gt;&lt;lastBidPrice&gt;-1.0000&lt;/lastBidPrice&gt;&lt;lastQuoteTime&gt;1455373178&lt;/lastQuoteTime&gt;&lt;nextQuoteTime&gt;1455373202&lt;/nextQuoteTime&gt;&lt;finalClearTime&gt;1455373200&lt;/finalClearTime&gt;&lt;nextClearTime&gt;-1&lt;/nextClearTime&gt;&lt;lastClearPrice&gt;349.0000&lt;/lastClearPrice&gt;&lt;lastClearTime&gt;1455372841&lt;/lastClearTime&gt;&lt;auctionStatus&gt;1&lt;/auctionStatus&gt;&lt;commandStatus&gt;0&lt;/commandStatus&gt;&lt;/getQuote&gt;' responseTime: 5 avg: 20.0 count: 1686</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:51</date>
+  <millis>1455373191194</millis>
+  <sequence>6193</sequence>
+  <logger>se.sics.tac.aw.DummyAgent</logger>
+  <level>WARNING</level>
+  <class>se.sics.tac.aw.Pascal</class>
+  <method>bidRejected</method>
+  <thread>21</thread>
+  <message>Bid Rejected: -1</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:51</date>
+  <millis>1455373191194</millis>
+  <sequence>6194</sequence>
+  <logger>se.sics.tac.aw.DummyAgent</logger>
+  <level>WARNING</level>
+  <class>se.sics.tac.aw.Pascal</class>
+  <method>bidRejected</method>
+  <thread>21</thread>
+  <message>      Reason: 20 (active bid changed)</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:51</date>
+  <millis>1455373191195</millis>
+  <sequence>6195</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>requesting quotes for auction 5 (Outflight 3)</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:51</date>
+  <millis>1455373191195</millis>
+  <sequence>6196</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML out: '&lt;getQuote&gt;&lt;auctionID&gt;90&lt;/auctionID&gt;&lt;/getQuote&gt;'</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:51</date>
+  <millis>1455373191195</millis>
+  <sequence>6197</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML in: '&lt;?xml version="1.0"?&gt;&lt;getQuote&gt;&lt;lastAskPrice&gt;453.0000&lt;/lastAskPrice&gt;&lt;lastBidPrice&gt;-1.0000&lt;/lastBidPrice&gt;&lt;lastQuoteTime&gt;1455373166&lt;/lastQuoteTime&gt;&lt;nextQuoteTime&gt;1455373197&lt;/nextQuoteTime&gt;&lt;finalClearTime&gt;1455373200&lt;/finalClearTime&gt;&lt;nextClearTime&gt;-1&lt;/nextClearTime&gt;&lt;lastClearPrice&gt;374.0000&lt;/lastClearPrice&gt;&lt;lastClearTime&gt;1455372841&lt;/lastClearTime&gt;&lt;auctionStatus&gt;1&lt;/auctionStatus&gt;&lt;commandStatus&gt;0&lt;/commandStatus&gt;&lt;/getQuote&gt;' responseTime: 6 avg: 20.0 count: 1687</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:51</date>
+  <millis>1455373191195</millis>
+  <sequence>6198</sequence>
+  <logger>se.sics.tac.aw.DummyAgent</logger>
+  <level>WARNING</level>
+  <class>se.sics.tac.aw.Pascal</class>
+  <method>bidRejected</method>
+  <thread>21</thread>
+  <message>Bid Rejected: -1</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:51</date>
+  <millis>1455373191195</millis>
+  <sequence>6199</sequence>
+  <logger>se.sics.tac.aw.DummyAgent</logger>
+  <level>WARNING</level>
+  <class>se.sics.tac.aw.Pascal</class>
+  <method>bidRejected</method>
+  <thread>21</thread>
+  <message>      Reason: 20 (active bid changed)</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:51</date>
+  <millis>1455373191196</millis>
+  <sequence>6200</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>requesting quotes for auction 6 (Outflight 4)</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:51</date>
+  <millis>1455373191196</millis>
+  <sequence>6201</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML out: '&lt;getQuote&gt;&lt;auctionID&gt;91&lt;/auctionID&gt;&lt;/getQuote&gt;'</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:51</date>
+  <millis>1455373191196</millis>
+  <sequence>6202</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML in: '&lt;?xml version="1.0"?&gt;&lt;getQuote&gt;&lt;lastAskPrice&gt;412.0000&lt;/lastAskPrice&gt;&lt;lastBidPrice&gt;-1.0000&lt;/lastBidPrice&gt;&lt;lastQuoteTime&gt;1455373180&lt;/lastQuoteTime&gt;&lt;nextQuoteTime&gt;1455373209&lt;/nextQuoteTime&gt;&lt;finalClearTime&gt;1455373200&lt;/finalClearTime&gt;&lt;nextClearTime&gt;-1&lt;/nextClearTime&gt;&lt;lastClearPrice&gt;386.0000&lt;/lastClearPrice&gt;&lt;lastClearTime&gt;1455372841&lt;/lastClearTime&gt;&lt;auctionStatus&gt;1&lt;/auctionStatus&gt;&lt;commandStatus&gt;0&lt;/commandStatus&gt;&lt;/getQuote&gt;' responseTime: 7 avg: 20.0 count: 1688</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:51</date>
+  <millis>1455373191196</millis>
+  <sequence>6203</sequence>
+  <logger>se.sics.tac.aw.DummyAgent</logger>
+  <level>WARNING</level>
+  <class>se.sics.tac.aw.Pascal</class>
+  <method>bidRejected</method>
+  <thread>21</thread>
+  <message>Bid Rejected: -1</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:51</date>
+  <millis>1455373191196</millis>
+  <sequence>6204</sequence>
+  <logger>se.sics.tac.aw.DummyAgent</logger>
+  <level>WARNING</level>
+  <class>se.sics.tac.aw.Pascal</class>
+  <method>bidRejected</method>
+  <thread>21</thread>
+  <message>      Reason: 20 (active bid changed)</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:51</date>
+  <millis>1455373191197</millis>
+  <sequence>6205</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>requesting quotes for auction 7 (Outflight 5)</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:51</date>
+  <millis>1455373191197</millis>
+  <sequence>6206</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML out: '&lt;getQuote&gt;&lt;auctionID&gt;92&lt;/auctionID&gt;&lt;/getQuote&gt;'</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:51</date>
+  <millis>1455373191197</millis>
+  <sequence>6207</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML in: '&lt;?xml version="1.0"?&gt;&lt;getQuote&gt;&lt;lastAskPrice&gt;541.0000&lt;/lastAskPrice&gt;&lt;lastBidPrice&gt;-1.0000&lt;/lastBidPrice&gt;&lt;lastQuoteTime&gt;1455373179&lt;/lastQuoteTime&gt;&lt;nextQuoteTime&gt;1455373207&lt;/nextQuoteTime&gt;&lt;finalClearTime&gt;1455373200&lt;/finalClearTime&gt;&lt;nextClearTime&gt;-1&lt;/nextClearTime&gt;&lt;lastClearPrice&gt;364.0000&lt;/lastClearPrice&gt;&lt;lastClearTime&gt;1455372841&lt;/lastClearTime&gt;&lt;auctionStatus&gt;1&lt;/auctionStatus&gt;&lt;commandStatus&gt;0&lt;/commandStatus&gt;&lt;/getQuote&gt;' responseTime: 8 avg: 20.0 count: 1689</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:51</date>
+  <millis>1455373191197</millis>
+  <sequence>6208</sequence>
+  <logger>se.sics.tac.aw.DummyAgent</logger>
+  <level>WARNING</level>
+  <class>se.sics.tac.aw.Pascal</class>
+  <method>bidRejected</method>
+  <thread>21</thread>
+  <message>Bid Rejected: -1</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:51</date>
+  <millis>1455373191197</millis>
+  <sequence>6209</sequence>
+  <logger>se.sics.tac.aw.DummyAgent</logger>
+  <level>WARNING</level>
+  <class>se.sics.tac.aw.Pascal</class>
+  <method>bidRejected</method>
+  <thread>21</thread>
+  <message>      Reason: 20 (active bid changed)</message>
+</record>
+<record>
+  <date>2016-02-13T15:19:51</date>
+  <millis>1455373191198</millis>
+  <sequence>6210</sequence>
+  <logger>se.sics.tac.aw.DummyAgent</logger>
+  <level>FINE</level>
+  <class>se.sics.tac.aw.Pascal</class>
+  <method>quoteUpdated</method>
+  <thread>21</thread>
+  <message>All quotes for flight has been updated</message>
+</record>
+<record>
+  <date>2016-02-13T15:20:01</date>
+  <millis>1455373201259</millis>
+  <sequence>6211</sequence>
+  <logger>se.sics.tac.aw.TACAgent</logger>
+  <level>FINE</level>
+  <class>se.sics.tac.aw.TACAgent</class>
+  <method>gameEnds</method>
+  <thread>12</thread>
+  <message>Game 16 has ended</message>
+</record>
+<record>
+  <date>2016-02-13T15:20:01</date>
+  <millis>1455373201261</millis>
+  <sequence>6212</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML out: '&lt;transIDs&gt;&lt;earliestTransID&gt;698&lt;/earliestTransID&gt;&lt;/transIDs&gt;'</message>
+</record>
+<record>
+  <date>2016-02-13T15:20:01</date>
+  <millis>1455373201261</millis>
+  <sequence>6213</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML in: '&lt;?xml version="1.0"?&gt;&lt;transIDs&gt;&lt;ids&gt;&lt;list&gt;&lt;/list&gt;&lt;/ids&gt;&lt;more&gt;0&lt;/more&gt;&lt;commandStatus&gt;0&lt;/commandStatus&gt;&lt;/transIDs&gt;' responseTime: 1 avg: 20.0 count: 1690</message>
+</record>
+<record>
+  <date>2016-02-13T15:20:01</date>
+  <millis>1455373201261</millis>
+  <sequence>6214</sequence>
+  <logger>se.sics.tac.aw.DummyAgent</logger>
+  <level>FINE</level>
+  <class>se.sics.tac.aw.Pascal</class>
+  <method>gameStopped</method>
+  <thread>21</thread>
+  <message>Game Stopped!</message>
+</record>
+<record>
+  <date>2016-02-13T15:20:01</date>
+  <millis>1455373201261</millis>
+  <sequence>6215</sequence>
+  <logger>se.sics.tac.aw.TACAgent</logger>
+  <level>FINE</level>
+  <class>se.sics.tac.util.LogFormatter</class>
+  <method>separator</method>
+  <thread>21</thread>
+  <message>Game log complete
+************************************************************
+* Game log complete
+************************************************************
+
+</message>
+</record>
+<record>
+  <date>2016-02-13T15:20:01</date>
+  <millis>1455373201393</millis>
+  <sequence>6216</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML out: '&lt;nextGame&gt;&lt;stat.avgResponseTime&gt;20.0&lt;/stat.avgResponseTime&gt;&lt;stat.messageCount&gt;1689&lt;/stat.messageCount&gt;&lt;/nextGame&gt;'</message>
+</record>
+<record>
+  <date>2016-02-13T15:20:01</date>
+  <millis>1455373201393</millis>
+  <sequence>6216</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML out: '&lt;nextGame&gt;&lt;stat.avgResponseTime&gt;20.0&lt;/stat.avgResponseTime&gt;&lt;stat.messageCount&gt;1689&lt;/stat.messageCount&gt;&lt;/nextGame&gt;'</message>
+</record>
+<record>
+  <date>2016-02-13T15:20:01</date>
+  <millis>1455373201393</millis>
+  <sequence>6217</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML in: '&lt;?xml version="1.0"?&gt;&lt;nextGame&gt;&lt;gameID&gt;17&lt;/gameID&gt;&lt;startTime&gt;1455373320&lt;/startTime&gt;&lt;gameType&gt;0&lt;/gameType&gt;&lt;commandStatus&gt;0&lt;/commandStatus&gt;&lt;/nextGame&gt;' responseTime: 133 avg: 20.0 count: 1691</message>
+</record>
+<record>
+  <date>2016-02-13T15:20:01</date>
+  <millis>1455373201393</millis>
+  <sequence>6217</sequence>
+  <logger>se.sics.tac.aw.TACMessage</logger>
+  <level>FINEST</level>
+  <class>se.sics.tac.aw.TACMessage</class>
+  <method>setReceivedMessage</method>
+  <thread>21</thread>
+  <message>XML in: '&lt;?xml version="1.0"?&gt;&lt;nextGame&gt;&lt;gameID&gt;17&lt;/gameID&gt;&lt;startTime&gt;1455373320&lt;/startTime&gt;&lt;gameType&gt;0&lt;/gameType&gt;&lt;commandStatus&gt;0&lt;/commandStatus&gt;&lt;/nextGame&gt;' responseTime: 133 avg: 20.0 count: 1691</message>
+</record>
+<record>
+  <date>2016-02-13T15:20:01</date>
+  <millis>1455373201393</millis>
+  <sequence>6218</sequence>
+  <logger>se.sics.tac.aw.TACAgent</logger>
+  <level>FINE</level>
+  <class>se.sics.tac.aw.TACAgent</class>
+  <method>handleNextGame</method>
+  <thread>21</thread>
+  <message>Next Game -&gt; 17 (should wait 118)</message>
+</record>
+<record>
+  <date>2016-02-13T15:20:01</date>
+  <millis>1455373201393</millis>
+  <sequence>6218</sequence>
+  <logger>se.sics.tac.aw.TACAgent</logger>
+  <level>FINE</level>
+  <class>se.sics.tac.aw.TACAgent</class>
+  <method>handleNextGame</method>
+  <thread>21</thread>
+  <message>Next Game -&gt; 17 (should wait 118)</message>
+</record>
+<record>
+  <date>2016-02-13T15:20:01</date>
+  <millis>1455373201393</millis>
+  <sequence>6219</sequence>
+  <logger>se.sics.tac.aw.TACAgent</logger>
+  <level>FINE</level>
+  <class>se.sics.tac.aw.TACAgent</class>
+  <method>reset</method>
+  <thread>21</thread>
+  <message>performing connection reset</message>
+</record>
+<record>
+  <date>2016-02-13T15:20:01</date>
+  <millis>1455373201393</millis>
+  <sequence>6219</sequence>
+  <logger>se.sics.tac.aw.TACAgent</logger>
+  <level>FINE</level>
+  <class>se.sics.tac.aw.TACAgent</class>
+  <method>reset</method>
+  <thread>21</thread>
+  <message>performing connection reset</message>
+</record>

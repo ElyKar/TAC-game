@@ -126,8 +126,9 @@
  */
 
 package se.sics.tac.aw;
-import se.sics.tac.util.ArgEnumerator;
 import java.util.logging.*;
+
+import se.sics.tac.util.ArgEnumerator;
 
 public class Pascal extends AgentImpl {
 
@@ -137,9 +138,19 @@ public class Pascal extends AgentImpl {
   private static final boolean DEBUG = false;
 
   private float[] prices;
-
+  
+  private float bestValue=250;//valeur a laquelle on achète directement un vol.
+  
+  private float hotelPricePremium=50;
+  private float hotelPriceCheap=50;
+  //delat est le delta utilisé pour les hotels, il correspond 
+  private float[] deltas;
+  private float[] oldPricesHotel;
+  
   protected void init(ArgEnumerator args) {
     prices = new float[agent.getAuctionNo()];
+    deltas = new float[agent.getAuctionNo()];
+    oldPricesHotel = new float[agent.getAuctionNo()];
   }
 
   public void quoteUpdated(Quote quote) {
@@ -151,14 +162,23 @@ public class Pascal extends AgentImpl {
 	  quote.getHQW() < alloc) {
 	Bid bid = new Bid(auction);
 	// Can not own anything in hotel auctions...
-	prices[auction] = quote.getAskPrice() + 50;
-	bid.addBidPoint(alloc, prices[auction]);
+	//on calcule la moyenne des deltas c'est a dire en moyenne comment evolue les AskPRice
+	deltas[auction]=(deltas[auction]+(quote.getAskPrice()-oldPricesHotel[auction]))/2;
+	
+	//si notre prix est supérieur au prix demandé + le delta on le met a jour
+	//sinon on le laisse tel quel
+	if(prices[auction]< quote.getAskPrice()+deltas[auction])
+	{
+		prices[auction]=quote.getAskPrice()+deltas[auction];
+		bid.addBidPoint(alloc, prices[auction]);
+		agent.submitBid(bid);
+	}
+
 	if (DEBUG) {
 	  log.finest("submitting bid with alloc="
 		     + agent.getAllocation(auction)
 		     + " own=" + agent.getOwn(auction));
 	}
-	agent.submitBid(bid);
       }
     } else if (auctionCategory == TACAgent.CAT_ENTERTAINMENT) {
       int alloc = agent.getAllocation(auction) - agent.getOwn(auction);
@@ -176,6 +196,34 @@ public class Pascal extends AgentImpl {
 	}
 	agent.submitBid(bid);
       }
+    }
+    else if (auctionCategory == TACAgent.CAT_FLIGHT)
+    {
+    	float askPrice=quote.getAskPrice();
+    	int alloc = agent.getAllocation(auction);
+    	if(alloc>0)
+    	{
+    		//si on trouve un prix en dessous de 200 on achète
+    		if(askPrice<bestValue)
+    		{
+    			Bid oldbid =quote.getBid();
+    			Bid bid = new Bid(auction);
+    			bid.addBidPoint(alloc, bestValue);
+    			agent.replaceBid(oldbid, bid);
+    		}
+    		//sinon à partir du moment ou en convertissant les secondes passé cela nous donnes un prix possibles,
+    		//le prix d'achat correspond aux secondes passé
+    		else if(agent.getGameTime() > 50000)
+    		{
+    			Bid oldbid =quote.getBid();
+    			Bid bid = new Bid(auction);
+    			//ici le /1000 pour passer en seconde et le +80 pour aller jusqu'a un prix de 800
+    			//pour etre sur d'obtenir le vol.
+    			bid.addBidPoint(alloc, (agent.getGameTime()/1000)+100);
+    			agent.replaceBid(oldbid, bid);
+    		}
+    	}
+    	
     }
   }
 
@@ -225,13 +273,21 @@ public class Pascal extends AgentImpl {
       switch (agent.getAuctionCategory(i)) {
       case TACAgent.CAT_FLIGHT:
 	if (alloc > 0) {
-	  price = 1000;
+	  price = bestValue;
 	}
 	break;
       case TACAgent.CAT_HOTEL:
 	if (alloc > 0) {
-	  price = 200;
-	  prices[i] = 200f;
+		if(agent.getAuctionType(i)== TACAgent.TYPE_CHEAP_HOTEL)
+		{
+			price = hotelPriceCheap;
+			prices[i] = hotelPriceCheap;
+		}
+		else
+		{
+			price = hotelPricePremium;
+			prices[i]=hotelPricePremium;
+		}
 	}
 	break;
       case TACAgent.CAT_ENTERTAINMENT:
