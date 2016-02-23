@@ -140,8 +140,9 @@ public class Pascal extends AgentImpl {
   private float[] prices;
   
   private float bestValue=250;//valeur a laquelle on achète directement un vol.
-  private double[] limitsSup;
-  private double[] limitsInf;
+  private float[] limitsSup;
+  private float[] limitsInf;
+  private boolean[] updated; 
   
   private float hotelPricePremium=50;
   private float hotelPriceCheap=50;
@@ -153,8 +154,13 @@ public class Pascal extends AgentImpl {
     prices = new float[agent.getAuctionNo()];
     deltas = new float[agent.getAuctionNo()];
     oldPricesHotel = new float[agent.getAuctionNo()];
-    limitsSup = new double[agent.getAuctionNo()];
-    limitsInf = new double[agent.getAuctionNo()];
+    limitsSup = new float[agent.getAuctionNo()];
+    limitsInf = new float[agent.getAuctionNo()];
+    updated =new boolean[agent.getAuctionNo()];
+    for(boolean val : updated)
+    {
+    	val = false;
+    }
   }
 
   public void quoteUpdated(Quote quote) {
@@ -205,14 +211,25 @@ public class Pascal extends AgentImpl {
     {
     	float askPrice=quote.getAskPrice();
     	int alloc = agent.getAllocation(auction);
+    	limitsInf[auction]=(float)(agent.getQuote(auction).getAskPrice()-0.1*agent.getQuote(auction).getAskPrice());
     	if(alloc>0)
     	{
+    		
+    		if(!updated[auction])
+    		{
+    			limitsSup[auction]=(float)(agent.getQuote(auction).getAskPrice()+0.1*agent.getQuote(auction).getAskPrice());
+    			Bid oldbid =quote.getBid();
+    			Bid bid = new Bid(auction);
+    			bid.addBidPoint(alloc, limitsInf[auction]);
+    			agent.replaceBid(oldbid, bid);
+    			updated[auction]=true;
+    		}
     		//si on trouve un prix en dessus du prix initial + 20% on l'achète
     		if(askPrice>limitsSup[auction])
     		{
     			Bid oldbid =quote.getBid();
     			Bid bid = new Bid(auction);
-    			bid.addBidPoint(alloc, (float)limitsSup[auction]);
+    			bid.addBidPoint(alloc, 1000);
     			agent.replaceBid(oldbid, bid);
     		}
     		//si il reste moins d'une minute on achète tout
@@ -274,9 +291,8 @@ public class Pascal extends AgentImpl {
       switch (agent.getAuctionCategory(i)) {
       case TACAgent.CAT_FLIGHT:
 	if (alloc > 0) {
-		limitsInf[i]=agent.getQuote(i).getAskPrice()-0.2*agent.getQuote(i).getAskPrice();
-		limitsSup[i]=agent.getQuote(i).getAskPrice()+0.2*agent.getQuote(i).getAskPrice();
-	  price = (float)limitsInf[i];
+		
+	  price = 100;
 	}
 	break;
       case TACAgent.CAT_HOTEL:
