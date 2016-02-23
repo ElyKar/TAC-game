@@ -140,6 +140,8 @@ public class Pascal extends AgentImpl {
   private float[] prices;
   
   private float bestValue=250;//valeur a laquelle on achète directement un vol.
+  private double[] limitsSup;
+  private double[] limitsInf;
   
   private float hotelPricePremium=50;
   private float hotelPriceCheap=50;
@@ -151,6 +153,8 @@ public class Pascal extends AgentImpl {
     prices = new float[agent.getAuctionNo()];
     deltas = new float[agent.getAuctionNo()];
     oldPricesHotel = new float[agent.getAuctionNo()];
+    limitsSup = new double[agent.getAuctionNo()];
+    limitsInf = new double[agent.getAuctionNo()];
   }
 
   public void quoteUpdated(Quote quote) {
@@ -203,23 +207,20 @@ public class Pascal extends AgentImpl {
     	int alloc = agent.getAllocation(auction);
     	if(alloc>0)
     	{
-    		//si on trouve un prix en dessous de 200 on achète
-    		if(askPrice<bestValue)
+    		//si on trouve un prix en dessus du prix initial + 20% on l'achète
+    		if(askPrice>limitsSup[auction])
     		{
     			Bid oldbid =quote.getBid();
     			Bid bid = new Bid(auction);
-    			bid.addBidPoint(alloc, bestValue);
+    			bid.addBidPoint(alloc, (float)limitsSup[auction]);
     			agent.replaceBid(oldbid, bid);
     		}
-    		//sinon à partir du moment ou en convertissant les secondes passé cela nous donnes un prix possibles,
-    		//le prix d'achat correspond aux secondes passé
-    		else if(agent.getGameTime() > 50000)
+    		//si il reste moins d'une minute on achète tout
+    		else if(agent.getGameTimeLeft() < 60000)
     		{
     			Bid oldbid =quote.getBid();
     			Bid bid = new Bid(auction);
-    			//ici le /1000 pour passer en seconde et le +80 pour aller jusqu'a un prix de 800
-    			//pour etre sur d'obtenir le vol.
-    			bid.addBidPoint(alloc, (agent.getGameTime()/1000)+100);
+    			bid.addBidPoint(alloc, 1000);
     			agent.replaceBid(oldbid, bid);
     		}
     	}
@@ -273,7 +274,9 @@ public class Pascal extends AgentImpl {
       switch (agent.getAuctionCategory(i)) {
       case TACAgent.CAT_FLIGHT:
 	if (alloc > 0) {
-	  price = bestValue;
+		limitsInf[i]=agent.getQuote(i).getAskPrice()-0.2*agent.getQuote(i).getAskPrice();
+		limitsSup[i]=agent.getQuote(i).getAskPrice()+0.2*agent.getQuote(i).getAskPrice();
+	  price = (float)limitsInf[i];
 	}
 	break;
       case TACAgent.CAT_HOTEL:
