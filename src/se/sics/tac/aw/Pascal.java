@@ -384,6 +384,7 @@ public class Pascal extends AgentImpl {
       int auction = TACAgent.getAuctionFor(TACAgent.CAT_ENTERTAINMENT,
 					types[currentIdx], i);
       agent.setAllocation(auction, agent.getAllocation(auction) + 1);
+      currentIdx++;
     }
   }
   
