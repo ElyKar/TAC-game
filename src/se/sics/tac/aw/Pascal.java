@@ -136,23 +136,35 @@ public class Pascal extends AgentImpl {
     Logger.getLogger(DummyAgent.class.getName());
 
   private static final boolean DEBUG = false;
-
-  private float[] prices;
+  private static final int CLIENTNO = 8;
   
-  private float bestValue=250;//valeur a laquelle on achète directement un vol.
+  private float[] prices;
+
+  private boolean[] packages; // The packages we want to buy
+  private int[] dayPackages; // Store the auction number for a client
+  
+  private int[] arrivals; // The arrivals of the clients
+  private int[] departures; // The departures of the clients
+  
+  private float bestValue=250;//valeur a laquelle on achï¿½te directement un vol.
   private float[] limitsSup;
   private float[] limitsInf;
-  private boolean[] updated; 
+  private boolean[] updated;
   
   private float hotelPricePremium=50;
   private float hotelPriceCheap=50;
-  //delat est le delta utilisé pour les hotels, il correspond 
+  //delta est le delta utilisï¿½ pour les hotels, il correspond 
   private float[] deltas;
   private float[] oldPricesHotel;
   
   protected void init(ArgEnumerator args) {
     prices = new float[agent.getAuctionNo()];
     deltas = new float[agent.getAuctionNo()];
+    packages = new boolean[CLIENTNO * 3];
+    dayPackages = new int[CLIENTNO * 3];
+    for (int i = 0; i < CLIENTNO*3; packages[i++] = true);
+    arrivals = new int[CLIENTNO];
+    departures = new int[CLIENTNO];
     oldPricesHotel = new float[agent.getAuctionNo()];
     limitsSup = new float[agent.getAuctionNo()];
     limitsInf = new float[agent.getAuctionNo()];
@@ -167,54 +179,51 @@ public class Pascal extends AgentImpl {
     int auction = quote.getAuction();
     int auctionCategory = agent.getAuctionCategory(auction);
     if (auctionCategory == TACAgent.CAT_HOTEL) {
-      int alloc = agent.getAllocation(auction);
-      if (alloc > 0 && quote.hasHQW(agent.getBid(auction)) &&
-	  quote.getHQW() < alloc) {
-	Bid bid = new Bid(auction);
+    	int alloc = agent.getAllocation(auction);
+    	if (alloc > 0 && quote.hasHQW(agent.getBid(auction)) &&
+	  	quote.getHQW() < alloc) {
+    		Bid bid = new Bid(auction);
 	// Can not own anything in hotel auctions...
 	//on calcule la moyenne des deltas c'est a dire en moyenne comment evolue les AskPRice
-	deltas[auction]=(deltas[auction]+(quote.getAskPrice()-oldPricesHotel[auction]))/2;
+    		deltas[auction]=(deltas[auction]+(quote.getAskPrice()-oldPricesHotel[auction]))/2;
 	
-	//si notre prix est supérieur au prix demandé + le delta on le met a jour
+	//si notre prix est supï¿½rieur au prix demandï¿½ + le delta on le met a jour
 	//sinon on le laisse tel quel
-	if(prices[auction]< quote.getAskPrice()+deltas[auction])
-	{
-		prices[auction]=quote.getAskPrice()+deltas[auction];
-		bid.addBidPoint(alloc, prices[auction]);
-		agent.submitBid(bid);
-	}
-
-	if (DEBUG) {
-	  log.finest("submitting bid with alloc="
-		     + agent.getAllocation(auction)
-		     + " own=" + agent.getOwn(auction));
-	}
-      }
+			if(prices[auction]< quote.getAskPrice()+deltas[auction])
+			{
+				prices[auction]=quote.getAskPrice()+deltas[auction];
+				bid.addBidPoint(alloc, prices[auction]);
+				agent.submitBid(bid);
+			}
+		
+			if (DEBUG) {
+			  log.finest("submitting bid with alloc="
+				     + agent.getAllocation(auction)
+				     + " own=" + agent.getOwn(auction));
+			}
+    	}
     } else if (auctionCategory == TACAgent.CAT_ENTERTAINMENT) {
-      int alloc = agent.getAllocation(auction) - agent.getOwn(auction);
-      if (alloc != 0) {
-	Bid bid = new Bid(auction);
-	if (alloc < 0)
-	  prices[auction] = 200f - (agent.getGameTime() * 120f) / 720000;
-	else
-	  prices[auction] = 50f + (agent.getGameTime() * 100f) / 720000;
-	bid.addBidPoint(alloc, prices[auction]);
-	if (DEBUG) {
-	  log.finest("submitting bid with alloc"
-		     + agent.getAllocation(auction)
-		     + " own=" + agent.getOwn(auction));
-	}
-	agent.submitBid(bid);
-      }
-    }
-    else if (auctionCategory == TACAgent.CAT_FLIGHT)
-    {
+    	int alloc = agent.getAllocation(auction) - agent.getOwn(auction);
+    	if (alloc != 0) {
+		Bid bid = new Bid(auction);
+		if (alloc < 0)
+			prices[auction] = 200f - (agent.getGameTime() * 120f) / 720000;
+		else
+			prices[auction] = 50f + (agent.getGameTime() * 100f) / 720000;
+		bid.addBidPoint(alloc, prices[auction]);
+		if (DEBUG) {
+			log.finest("submitting bid with alloc"
+			     + agent.getAllocation(auction)
+			     + " own=" + agent.getOwn(auction));
+		}
+		agent.submitBid(bid);
+	    }
+	} else if (auctionCategory == TACAgent.CAT_FLIGHT) {
     	float askPrice=quote.getAskPrice();
     	int alloc = agent.getAllocation(auction);
     	limitsInf[auction]=(float)(agent.getQuote(auction).getAskPrice()-0.1*agent.getQuote(auction).getAskPrice());
     	if(alloc>0)
     	{
-    		
     		if(!updated[auction])
     		{
     			limitsSup[auction]=(float)(agent.getQuote(auction).getAskPrice()+0.1*agent.getQuote(auction).getAskPrice());
@@ -224,7 +233,7 @@ public class Pascal extends AgentImpl {
     			agent.replaceBid(oldbid, bid);
     			updated[auction]=true;
     		}
-    		//si on trouve un prix en dessus du prix initial + 20% on l'achète
+    		//si on trouve un prix en dessus du prix initial + 20% on l'achï¿½te
     		if(askPrice>limitsSup[auction])
     		{
     			Bid oldbid =quote.getBid();
@@ -232,8 +241,9 @@ public class Pascal extends AgentImpl {
     			bid.addBidPoint(alloc, 1000);
     			agent.replaceBid(oldbid, bid);
     		}
-    		//si il reste moins d'une minute on achète tout
+    		//si il reste moins d'une minute on achï¿½te tout
     		else if(agent.getGameTimeLeft() < 60000)
+
     		{
     			Bid oldbid =quote.getBid();
     			Bid bid = new Bid(auction);
@@ -309,13 +319,11 @@ public class Pascal extends AgentImpl {
 		}
 	}
 	break;
-      case TACAgent.CAT_ENTERTAINMENT:
-	if (alloc < 0) {
-	  price = 200;
-	  prices[i] = 200f;
-	} else if (alloc > 0) {
-	  price = 50;
-	  prices[i] = 50f;
+    case TACAgent.CAT_ENTERTAINMENT:
+    // Starting prices : we want to buy at 200
+    if (alloc > 0 && isWanted(i) == 1) {
+		price = 200;
+		prices[i] = 200f;
 	}
 	break;
       default:
@@ -339,6 +347,8 @@ public class Pascal extends AgentImpl {
       int outFlight = agent.getClientPreference(i, TACAgent.DEPARTURE);
       int hotel = agent.getClientPreference(i, TACAgent.HOTEL_VALUE);
       int type;
+      arrivals[i] = inFlight;
+      departures[i] = outFlight;
 
       // Get the flight preferences auction and remember that we are
       // going to buy tickets for these days. (inflight=1, outflight=0)
@@ -363,44 +373,78 @@ public class Pascal extends AgentImpl {
 	agent.setAllocation(auction, agent.getAllocation(auction) + 1);
       }
 
-      int eType = -1;
-      while((eType = nextEntType(i, eType)) > 0) {
-	auction = bestEntDay(inFlight, outFlight, eType);
-	log.finer("Adding entertainment " + eType + " on " + auction);
-	agent.setAllocation(auction, agent.getAllocation(auction) + 1);
-      }
+      bestEntDay(inFlight, outFlight, i);
     }
   }
 
-  private int bestEntDay(int inFlight, int outFlight, int type) {
-    for (int i = inFlight; i < outFlight; i++) {
-      int auction = agent.getAuctionFor(TACAgent.CAT_ENTERTAINMENT,
-					type, i);
-      if (agent.getAllocation(auction) < agent.getOwn(auction)) {
-	return auction;
-      }
+  private void bestEntDay(int inFlight, int outFlight, int client) {
+	int[] types = getPreferences(client);
+	int currentIdx = 0;
+    for (int i = inFlight; i < outFlight && currentIdx < types.length; i++) {
+      int auction = TACAgent.getAuctionFor(TACAgent.CAT_ENTERTAINMENT,
+					types[currentIdx], i);
+      agent.setAllocation(auction, agent.getAllocation(auction) + 1);
     }
-    // If no left, just take the first...
-    return agent.getAuctionFor(TACAgent.CAT_ENTERTAINMENT,
-			       type, inFlight);
+  }
+  
+  private int[] getPreferences(int client) {
+	  int[] types = new int[3];
+	  int e1 = agent.getClientPreference(client, TACAgent.E1);
+	  int e2 = agent.getClientPreference(client, TACAgent.E2);
+	  int e3 = agent.getClientPreference(client, TACAgent.E3);
+	    
+	  if (e1 > e2 && e1 > e3) {
+		  types[0] = TACAgent.TYPE_ALLIGATOR_WRESTLING;
+		  if (e2 > e3) {
+			  types[1] = TACAgent.TYPE_AMUSEMENT;
+			  types[2] = TACAgent.TYPE_MUSEUM;
+		  } else {
+			  types[2] = TACAgent.TYPE_AMUSEMENT;
+			  types[1] = TACAgent.TYPE_MUSEUM;
+		  }
+	  } else if (e2 > e1 && e2 > e3) {
+		  types[0] = TACAgent.TYPE_AMUSEMENT;
+		  if (e1 > e3) {
+			  types[1] = TACAgent.TYPE_ALLIGATOR_WRESTLING;
+			  types[2] = TACAgent.TYPE_MUSEUM;
+		  } else {
+			  types[2] = TACAgent.TYPE_ALLIGATOR_WRESTLING;
+			  types[1] = TACAgent.TYPE_MUSEUM;
+		  }
+	  } else {
+		  types[0] = TACAgent.TYPE_MUSEUM;
+		  if (e1 > e2) {
+			  types[1] = TACAgent.TYPE_ALLIGATOR_WRESTLING;
+			  types[2] = TACAgent.TYPE_AMUSEMENT;
+		  } else {
+			  types[2] = TACAgent.TYPE_ALLIGATOR_WRESTLING;
+			  types[1] = TACAgent.TYPE_AMUSEMENT;
+		  }
+	  }
+	  return types;
   }
 
-  private int nextEntType(int client, int lastType) {
-    int e1 = agent.getClientPreference(client, TACAgent.E1);
-    int e2 = agent.getClientPreference(client, TACAgent.E2);
-    int e3 = agent.getClientPreference(client, TACAgent.E3);
-
-    // At least buy what each agent wants the most!!!
-    if ((e1 > e2) && (e1 > e3) && lastType == -1)
-      return TACAgent.TYPE_ALLIGATOR_WRESTLING;
-    if ((e2 > e1) && (e2 > e3) && lastType == -1)
-      return TACAgent.TYPE_AMUSEMENT;
-    if ((e3 > e1) && (e3 > e2) && lastType == -1)
-      return TACAgent.TYPE_MUSEUM;
-    return -1;
+  // Return the client interested by this entertainment auction, -1 if none
+  private int isWanted(int auction) {
+	  if (agent.getAuctionCategory(auction) != TACAgent.CAT_ENTERTAINMENT) {
+		  return -1;
+	  }
+	  int type = agent.getAuctionType(auction);
+	  int arr, dep;
+	  int day = agent.getAuctionDay(auction);
+	  for (int i = 0; i < CLIENTNO; i++) {
+		  arr = arrivals[i];
+		  dep = departures[i];
+		  // Check that this option is feasible and that the client still not have this kind of entertainement
+		  if (day >= arr && day < dep && packages[i*3 + type -1]) {
+			  // Check the client has nothing planned for this day
+			  if (dayPackages[i*3] != day && dayPackages[i*3+1] != day && dayPackages[i*3+2] != day) {
+				  return i;
+			  }
+		  }
+	  }
+	  return -1;
   }
-
-
 
   // -------------------------------------------------------------------
   // Only for backward compability
