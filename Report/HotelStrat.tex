@@ -1,0 +1,10 @@
+For the hotel strategy, it's a bit more complicated than the flight one.\\
+As these auctions are english auction, we thought that we have to put a enough big price to get ou hotel but not to big to not make the price grow too much.\\
+So this strategy is based on a variable "delta". This delta is the average ask price changes, each time the auction change, we update the delta by this function: delta= (delta + newAskPrice - oldAskPrice)/2. With the function we can have an overview of what will happen in the future rounds.\\
+Each time the quote for the auction is update, we compared the ask price with our bid and then there is 2 possibility:\\
+\begin{itemize}
+\item The ask price is higher than our bid, in that case we change our bid price for the ask price+delta.
+\item The ask price is lower than our bid in that case we change nothing
+\end{itemize}
+This strategy permits to have a bigger price than the ask price because each time the ask price go over our bid we update it. And it permits to not have a too big price because if our price is higher than the ask price we don't update our bid.\\
+Updating with the delta permits to  predict the future growth of the price and allow us to not update our price each time there is a new ask price but just in case we will not have the hotel.

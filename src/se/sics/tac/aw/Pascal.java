@@ -204,11 +204,8 @@ public class Pascal extends AgentImpl {
     	}
     } else if (auctionCategory == TACAgent.CAT_ENTERTAINMENT) {
     	int alloc = agent.getAllocation(auction) - agent.getOwn(auction);
-    	if (alloc != 0) {
+    	if (alloc > 0) {
 		Bid bid = new Bid(auction);
-		if (alloc < 0)
-			prices[auction] = 200f - (agent.getGameTime() * 120f) / 720000;
-		else
 			prices[auction] = 50f + (agent.getGameTime() * 100f) / 720000;
 		bid.addBidPoint(alloc, prices[auction]);
 		if (DEBUG) {
@@ -321,23 +318,24 @@ public class Pascal extends AgentImpl {
 	break;
     case TACAgent.CAT_ENTERTAINMENT:
     // Starting prices : we want to buy at 200
-    if (alloc > 0 && isWanted(i) == 1) {
+    if (alloc > 0 ) {
 		price = 200;
 		prices[i] = 200f;
 	}
+    else price=-1;
 	break;
       default:
 	break;
       }
       if (price > 0) {
-	Bid bid = new Bid(i);
-	bid.addBidPoint(alloc, price);
-	if (DEBUG) {
-	  log.finest("submitting bid with alloc=" + agent.getAllocation(i)
-		     + " own=" + agent.getOwn(i));
-	}
-	agent.submitBid(bid);
-      }
+		Bid bid = new Bid(i);
+		bid.addBidPoint(alloc, price);
+		if (DEBUG) {
+		  log.finest("submitting bid with alloc=" + agent.getAllocation(i)
+			     + " own=" + agent.getOwn(i));
+		}
+		agent.submitBid(bid);
+	      }
     }
   }
 
