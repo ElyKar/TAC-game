@@ -1,13 +1,15 @@
+\section{Intuition}
+
 In this part we'll talk about what we've done before starting the development of our agent and what was our first thinking about the project.\\
-Our first step was to analyse the dummy agent code to see how it works and how we can adapt this code for our agent.\\
+Our first step was to analyse the dummy agent code to see how it works and how we can adapt the code for our agent.\\
 First we wil describe the different auctions:\\
 \begin{itemize}
-\item Flight auction: for this auction, a price is set at the begining of the game between (250 and 400)and then this price change during the game (rize or decrease). There are no limited places for one flight so the only thing we have to do is do decide when we buy our flight.
-\item Hotel auction: this auction is an english auction. We put a bid with a price and when the auction is closed, the ask price become the 16th higher price and then all the bids with a price over the ask price (according to the stock: there are 16 places available for each hotel and each night) are validated and players get the rooms. So to be sure to get an hotel we have tu put an enough high price.
-\item Entertainement: players can send bid to sell or buy entertainements if some bids match together, the transaction is done.
+\item Flight auction: for this auction, a price is set at the begining of the game between 250 and 400 and then this price changes at regular intervals during the game (increase or decrease). There are no limited places for one flight so the only thing we have to do is do decide when we buy our flight.
+\item Hotel auction: this auction is an english auction. We put a bid with a price and when the auction is closed, the ask price become the 16th higher price and then all the bids with a price over the ask price (according to the stock: there are 16 places available for each hotel and each night) are validated and players get the rooms. So to be sure to get an hotel we have to put an high enough price.
+\item Entertainement: players can send bid to sell or buy entertainements. If some bids match together, the transaction is done.
 \end{itemize}
-For the flight auctions, the dummy agent buy everything at the begining of the game, it buy all it needed. That can be the best solution if by luck all the auctions will grow but it's not always the case so we have to think about another strategy.\\
-For the  hotel auctions, the dummy agent update his bid each time the quote is updated. He put a new bid, the price of this bid is equal to the ask price + 50. It's not a really good strategy because 50 is a fix variable and variation of the ask price can be higher or lower in different games. Furthermore maybe this price is not enough high to get the hotel needed.\\
-And for the entertainement, the dummy agent try to sell entertainements that it doesn't need at the higer price and it try to buy what it need at the lower price.\\
+For the flight auctions, the dummy agent buys everything at the beginning of the game, he buys all the ones he needs. That can be the best solution if by luck all the auctions will grow but it's not always the case so we have to think about another strategy.\\
+For the  hotel auctions, the dummy agent updates his bid each time the quote is updated. He puts a new bid, the price of this bid is equal to the ask price + 50. It's not a really good strategy because 50 is a fix variable and variation of the ask price can be higher or lower in different games. Furthermore maybe this price is not enough high to get the hotel needed.\\
+And for the entertainement, the dummy agent tries to sell entertainements that it doesn't need at the higest price and it tries to buy what each client's most wanted entertainement at the lowest price. When the quote is updated, he increases or decreases the price accordingly.\\
 For our agent, we decided to adopt a global strategy wich is to get the best packages regardless of the price. With this strategy we will have a good score in satisfaction and the score about the price depends on the game and on the other players.
 Now let's present our strategy in details.

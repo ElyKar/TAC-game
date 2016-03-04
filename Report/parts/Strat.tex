@@ -1,4 +1,4 @@
-\section{Strategies}
+\section{Agent Pascal}
 
 \subsection{Flight strategy}
 
@@ -11,22 +11,29 @@ At the begining we just put a low limit, but after many tests, we saw that the p
 In a first step we've put some fixed limits (200 for the low limit and 400 for the high limit) but after thought, we realized that was not really relevant because the prices begin between 250 and 400 so there can be a gap between some auction.\\
 So we decided to adapt the limits for each auction. We've put different limits for the each auctions, regarding the starting price of the auction:\\
 \begin{itemize}
-\item Low limit = Starting price - 10% of the starting price
-\item High limit = Starting price + 10% of the starting price
+\item Low limit = Starting price - 10\% of the starting price
+\item High limit = Starting price + 10\% of the starting price
 \end{itemize}
 This is a better strategy than before because we adapt our price according to each auction and not only a global strat for all the auctions.
 
 \subsection{Hotel strategy}
 
 For the hotel strategy, it's a bit more complicated than the flight one.\\
-As these auctions are english auction, we thought that we have to put a enough big price to get ou hotel but not to big to not make the price grow too much.\\
-So this strategy is based on a variable "delta". This delta is the average ask price changes, each time the auction change, we update the delta by this function: delta= (delta + newAskPrice - oldAskPrice)/2. With the function we can have an overview of what will happen in the future rounds.\\
-Each time the quote for the auction is update, we compared the ask price with our bid and then there is 2 possibility:\\
+As these auctions are english auction, we thought that we have to put a enough big price to get our hotels but not to big to not make the price grow too much.\\
+So this strategy is based on a variable "delta". This delta is the average ask price changes, each time the auction change, we update the $\delta$ by this function: $\delta = (\delta + newAskPrice - oldAskPrice)/2$. With the function we can have an overview of what will happen in the future rounds.\\
+Each time the quote for the auction is updated, we compare the ask price with our bid and then there is 2 possibility:\\
 \begin{itemize}
-\item The ask price is higher than our bid, in that case we change our bid price for the ask price+delta.
+\item The ask price is higher than our bid, in that case we change our bid price for the ask price+$\delta$.
 \item The ask price is lower than our bid in that case we change nothing
 \end{itemize}
-This strategy permits to have a bigger price than the ask price because each time the ask price go over our bid we update it. And it permits to not have a too big price because if our price is higher than the ask price we don't update our bid.\\
-Updating with the delta permits to  predict the future growth of the price and allow us to not update our price each time there is a new ask price but just in case we will not have the hotel.
+This strategy permits to have a bigger price than the asked price because each time the asked price go over our bid we update it. And it permits to not have a too big price because if our price is higher than the asked price we don't update our bid.\\
+Updating with the delta allows to predict the future growth of the price and permits us to not update our price each time there is a new ask price but just in case we will not have the hotel.
 
 \subsection{Entertainement strategy}
+
+Concerning the entertainements, the major improvement was to buy a complete set of entertainements, and not just the best as does the Dummy agent.
+For this purpose, we had to rank the preferences of each client, from his most wanted entertainement to his less wanted.\\
+Our purpose being to provide complete packages at all cost, we decided to buy the entertainements right from the start, at the highest price possible (200) in order to be sure to complete our packages.\\
+Furthermore, in a competition, it is sometimes important to focus on how to annoy other competitors, that's why we decided to keep all of our original entertainments, expecting a starvation for the others.\\
+This strategy allows us to content the clients, while annoying the other agents because we have more entertainements than needed.
+
