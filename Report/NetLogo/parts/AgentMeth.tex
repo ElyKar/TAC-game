@@ -1,0 +1,66 @@
+\section{Agent Methodology}
+We apply the GAIA methodology to the cooperative Multi-Agent System. It allows us to get on organizational view of the system being modeled. We let the naive Multi-Agent System aside as there are no interactions between agents.
+
+\subsection{Role model}
+This Agent-based System contains only one role : the Philosopher.
+\begin{itemize}
+\item{Role schema: }Philosopher
+\item{Description: }This role involves thinking as much as possible and helping its neighbors to eat if possible by releasing a fork if it allows the neighbor to eat.
+\item{Protocols and Activities: }Think, Starve, Eat, TakeLeftFork, TakeRightFork, ReleaseLeftFork, ReleaseRightFork, TellNeighbors.
+\item{Permissions: }
+    \begin{itemize}
+    \item reads leftForkStatus // Is the left fork available or wanted by another Philosopher
+    \item reads rightForkStatus // Is the right for available or wanted by another Philosopher
+    \end{itemize}
+    \begin{itemize}
+    \item changes leftForkMarked // Mark the left fork as wanted
+    \item changes rightForkMarked // Mark the right fork as wanted
+    \item changes leftForkTaken // Take or release the left fork
+    \item  changesrightForkTaken // Take or release the right fork
+    \end{itemize}
+
+\item{Liveness: }
+                PHILOSOPHER: ( Think, Starve, Take, Eat, Release $)^\omega$\\
+                TAKE: (TakeLeftFork, TakeRightFork)\\
+                RELEASE: (ReleaseLeftFork, ReleaseRightFork, TellNeighbors)\\
+\item{Safety: }
+    \begin{itemize}
+        \item true
+    \end{itemize}
+\end{itemize}
+
+\subsection{Interaction model}
+There are two protocols in the interaction model : \textit{Take} and \textit{Release}\\
+\\
+\textit{Take}
+\begin{itemize}
+\item{Purpose: }Take a fork
+\item{Initiator: }Philosopher
+\item{Responder: }Philosopher
+\item{Inputs: }state = \text{STARVING}
+\item{Outputs: }Fork Status
+\item{Processing: }The initiator is hungry and ask his neighbors if their fork are available for taking, if yes take them, otherwise wait and try again.
+\end{itemize}
+\textit{Release}
+\begin{itemize}
+\item{Purpose: }Take a fork
+\item{Initiator: }Philosopher
+\item{Responder: }---
+\item{Inputs: }---
+\item{Outputs: }---
+\item{Processing: }When the initiator is done eating, release the forks and notify the neighbors.
+\end{itemize}
+
+\subsection{Behavior rules}
+\begin{itemize}
+\item If an agent is starving, try to take the left fork and the right fork.
+\item If an agent holds only one fork which is aready marked, release it.
+\item When an agent is done eating, he should release immediately his forks.
+\end{itemize}
+
+\subsection{Agent model}
+\begin{itemize}
+\item A Philosopher is responsible for his state as well as his neighbors's.
+\item A Philosopher divides the shared resources between himself and his neighbors, he always seeks to do the best use of the shared resources, even if it means waiting before taking a resource.
+\item A Philosopher must update the state of the resources accordingly to his objective.
+\end{itemize}

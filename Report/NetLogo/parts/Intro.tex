@@ -1,0 +1,8 @@
+\section{Introduction}
+The problem is the following : $N$ philosophers are sitting on a round table. Each one has a spaghetti plate in front of him, and two forks. He shares his right fork with his right neighbor, and the left fork with his left neighbor. Thus, there are $N$ forks in total. One philosopher can eat only if he holds the two forks, otherwise he can't. \\
+\\
+Each philosopher is in one of the three following state of mind: either \textit{THINKING}, \textit{STARVING} or \textit{EATING}. Philosophers have a certain probability to get from \textit{THINKING} to \textit{STARVING}, in which case they have to eat (thus they need the two forks). While in state \textit{EATING}, they have a certain probability to get to a \textit{THINKING} state : they put down the two forks. The aim of the problem is to maximize the time philosophers spent doing their job, that is \textit{THINKING}.\\
+\\
+It may not seem so, but the problem can be tricky to solve, as many deadlock can happen. For example, if each philosopher ends up with only his left fork, then there are no more forks available and the simulation reaches one of those deadlock : the simulation cannot go further. \\
+\\
+The studied program intends to solve the dining philosophers problem in two ways using a different Multi-Agent System for each. Each philosopher is represented using an agent. The first solution involves autonomous agents, that is they do not communicate with one another. The second solution involves smarter agents : each agent communicates with his neighbors.
