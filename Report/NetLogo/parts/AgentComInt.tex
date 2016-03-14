@@ -1,12 +1,12 @@
 \section{Agent Communication and Interaction}
-In this part we wiil talk about the interaction and the communication between the different agents in this multi-agent system. We will first see the intercation between naive agents and then for the smart agent.
+In this part we will talk about the interaction and the communication between the different agents in this multi-agent system. We will first see the intercation between naive agents and then for the smart agents.
 
 \subsection{Naive agent}
-For the naive version of the agent, the communication is not really advanced because the philospohers don't communicate between them. One philospoh will just communicate with the fork, he will just look if they are available or not. And the interaction is not really complicated neither because a philosopher can just take or release forks. If we want to find a little part of interaction between philosopher it's that if a philosopher have 2 forks another one can't have his 2 forks.\\
-So for the naive version there is no lot of interaction and communication.
+For the naive version of the agent, the communication is not really advanced because the philospohers don't communicate between them. One philospoh will just communicate with the fork, he will just look if they are available or not. And the interaction is not really complicated neither because a philosopher can just take or release forks. If we have to find a slight part of interaction between philosophers, it happens that when a philosopher have 2 forks another one can't have his 2 forks. However, it would be more accurate to call it a consequence of the system state given its constraints rather than a real interaction.\\
+So for the naive version there is almost no interaction and no communication at all.
 
 \subsection{Smart agent}
-This kind of philosopher is more interesting because smart philosopher are supposed to cooperate to help each other to reach their goal: eat and think.\\
-Here there is a communication between philosopher because they mark a fork, that means they want this fork and if a philosopher have a marked fork but doesn't have the other one he will release this fork because someone else need it.\\
-It's a kind of communication not directly but by the forks, they send informations to each other marking forks they need.\\
-The interaction  between philosopher is the same that the naive agent.
+This kind of philosopher is more interesting because smart philosopher are supposed to cooperate to help each other to reach their goal: eat as soon as possible and think for as long as possible.\\
+Here there is a communication between philosopher because they mark a fork, that means they want this fork and if a philosopher have a marked fork but doesn't have the other one he will release this fork because someone else needs it.\\
+It's a kind of communication not directly but by the forks, they send informations to each other marking forks they need. Also, when releasing the forks they are notifying the other philosophers that they did.
+The interaction between philosopher is the same that the naive agent.

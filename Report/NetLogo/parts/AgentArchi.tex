@@ -1,25 +1,25 @@
 \section{Agent Architecture}
 
-An architecture for an agent define the global work methods of the agent.\\
-It exists many architectures but 2 are more famous:\\
+An architecture for an agent defines the global work methods of the agent.\\
+It exists many architectures but 2 are more used:\\
 \begin{itemize}
 	\item Reactive Agent
 	\item Reasoning Agent
 \end{itemize}
-The first one is when there are many behaviours developped for and agent and then when an event occurs, the agent react to this event by chosing one of his behaviour. So the agent just react when events occurs.\\
-Whereas the reasoning agent will look at his environement and his goal then he will deliberate to find a solution to reach his goal regarding his starting state.\\
+The first one is when there are many behaviours developped for and agent and then when an event occurs, the agent react to this event by choosing one of his behaviour. Basically the agent just reacts when events occurs.\\
+Whereas the reasoning agent will look at his environment and his goal then he will deliberate to find a solution to reach his goal regarding his starting state.\\
 The second one is more intelligent but it's not very effective for simple tasks which need quick reaction.\\
-These 2 architectures are different but sometimes you can mix both to create an hybrid agent. So you can adapt to many situations.\\
-In this part we will describe the architecture for the 2 kind of agent in the philosophy dinner problem, for the naive agent (whithout cooperation) and for the smart agent(with cooperation).
+These 2 architectures are different but sometimes it is preferable to mix both to create an hybrid agent. This way it can adapt to many situations.\\
+In this part we will describe the architecture for the two kinds of agent in the dining philosophers problem, for the naive agent (whithout cooperation) and for the smart agent(with cooperation).
 
 \subsection{Naive Agent}
-This kind is self fish and will act to satisfy his needs.\\
-Basically, the goal is to eat when the philosopher is hungry. Then when the philosopher become hungry he will just try to get the 2 forks to eat and if he has the 2 forks, he starts to eat until he becomes full.\\
-This strategy is really simple because the agent (or the philosopher) just look at the forks, if they are available or not and then take it to eat wihtout consider other agent needs.\\
-So for this kind of philosopher it's a reactive agent that is used because this behaviour is just a series of if. So the agent just react to different situation, there is no deliberation to reach his goal.
+This agent is selfish and will act to satisfy his needs.\\
+Basically, the goal is to eat when the philosopher is hungry. Then when the philosopher becomes hungry he will just try to get the 2 forks to eat and if he has the 2 forks, he starts eating until he becomes full.\\
+This strategy is really simple because the agent (or the philosopher) just look at the forks, if they are available or not and then take it to eat wihtout considering other agent needs.\\
+So for this kind of philosopher it's a reactive agent that is used because his behaviour is just a series of if. So the agent just reacts to different situation, there is no deliberation to reach his goal.
 
 \subsection{Smart Agent}
-This philosopher is a little bit more smart because he will look at the marks on the forks and will mark the forks that he need. The goal is the same: eat when hungry. But this timethe agent be careful of other agents needs.\\
-Despite this difference the architecture for this smart philospoher is the same than the naive: a reactive agent.\\
-Because the difference is about the marks on the forks, and the marks are managed by a "if series" too, indeed, if a philospoh has a fork marked and he doesn't have the other fork he will put down the fork because the mark mean that an other philosoph need it.\\
-As you can see before it's just manage by many "if", he doesn't think about his environment and how he can reach his goal.
+This philosopher is a little bit smarter because he will look at the marks on the forks and will mark the forks that he need. The goal is the same: eat when hungry. But this time the agent is careful of other agents needs and specifically of his neighbors, because they are the only one he shares resources with.\\
+Despite this difference the architecture for this smart philosopher is the same than the naive: a reactive agent.\\
+Because the difference is about the marks on the forks, and the marks are managed by a "if series" too, indeed, if a philosoph has a fork marked and he doesn't have the other fork he will put down the fork because the mark means that an other philosoph needs it.\\
+As we have seen his behaviour is just managed by many "if", he has only rudimentary thinking about his environment and how he can reach his goal.
